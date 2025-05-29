@@ -64,8 +64,3 @@ The API will be available at http://localhost:8000
 
 - `POST /process`: Process any input document
 - `GET /memory/{conversation_id}`: Retrieve processing history
-
-## License
-
-MIT
-"# multi-agent-system" 
