@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-multipart
+Jinja2
+beautifulsoup4
+PyPDF2
+email-validator

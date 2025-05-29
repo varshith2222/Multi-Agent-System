@@ -1,0 +1,326 @@
+{
+  "1e3c1f7d-8582-4d7c-a409-08045bddee5f": {
+    "metadata": {
+      "filename": "clg id_compressed (1).pdf",
+      "content_type": "application/pdf",
+      "description": "pdf"
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-29T20:42:23.489524",
+        "agent_output": {
+          "classification": {
+            "format": "pdf",
+            "intent": "invoice",
+            "confidence": 0.85
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-29T20:42:23.481833",
+    "last_updated": "2025-05-29T20:42:23.489532"
+  },
+  "f9d02501-7055-4e1c-8720-57f4becacbd1": {
+    "metadata": {
+      "filename": "Your application has been accepted for the role of AI Agent Development Internship!.eml",
+      "content_type": "message/rfc822",
+      "description": ""
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-29T21:24:58.838817",
+        "agent_output": {
+          "classification": {
+            "format": "email",
+            "intent": "rfq",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-29T21:24:58.859875",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "metadata": {
+              "sender": {
+                "name": "Unstop Events",
+                "email": "updates@unstop.events"
+              },
+              "subject": "Your application has been accepted for the role of AI Agent\r\n Development Internship!",
+              "timestamp": "Wed, 28 May 2025 10:00:49 +0000",
+              "urgency": "medium"
+            },
+            "content": {
+              "intent": "complaint",
+              "key_points": [
+                "important;\r\n            -ms-text-size-adjust: 100%",
+                "important;\r\n            -webkit-font-smoothing: antialiased;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        h1,\r\n        h2,\r\n        h3,\r\n        h4,\r\n        h5,\r\n        h6,\r\n        p,\r\n        span,\r\n        a,\r\n        strong,\r\n        div,\r\n        td {\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        img {\r\n            border: 0",
+                "important;\r\n            outline: none",
+                "important;\r\n            display: block;\r\n        }\r\n\r\n        a {\r\n            text-decoration: none;\r\n            color: #0073e6;\r\n        }",
+                "important;\r\n            text-decoration: underline",
+                "important;\r\n        }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                padding-right: 0",
+                "important;\r\n                text-align: center;\r\n                width: 100%;\r\n                display: block;\r\n                margin-bottom: 15px;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                margin-bottom: 10px",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 22px",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 19px",
+                "important;\r\n                margin-top: 15px",
+                "important;\r\n            }",
+                "important;\r\n                padding-bottom: 15px",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                height: 100px",
+                "important;\r\n            }",
+                "important;\r\n                padding-right: 0",
+                "important;\r\n            }",
+                "important;\r\n                font-size: 16px",
+                "important;\r\n                line-height: 20px",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 21px",
+                "important;\r\n            }",
+                "important;\r\n            }\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n    <div style=\"background-color: #ffffff; width: 100%; margin: 0; padding: 0;\">\r\n        <style>\r\n \t@media (max-width: 600px) {",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t\tline-height: 24px",
+                "important;\r\n\t\t\tpadding-top: 12px",
+                "important;\r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table \r\n\tcellpadding=\"0\" \r\n\tcellspacing=\"0\" \r\n\talign=\"center\" \r\n\tborder=\"0\" \r\n\twidth=\"700\" \r\n\tclass=\"full hedr_higt_1 br0\" \r\n\tstyle=\"\r\n\t\tbackground: #eaf4fe;\r\n\t\tbackground-image: url(https://d8it4huxumps7",
+                "important;\r\n\t\t\t\t\t\t\t\t\t\t\t\toutline: none",
+                "important;\r\n\t\t\t\t\t\t\t\t\t\t\t\tdisplay: block;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-height: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-width: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmargin: auto;\r\n\t\t\t\t\t\t\t\t\t\t\t\" \r\n\t\t\t\t\t\t\t\t\t\t\twidth=\"55\"\r\n\t\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\tclass=\"h1\" \r\n\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\tfont-family: 'Inter', sans-serif;\r\n\t\t\t\t\t\t\t\t\t\tcolor: #1c1c1c;\r\n\t\t\t\t\t\t\t\t\t\tfont-size: 28px;\r\n\t\t\t\t\t\t\t\t\t\tline-height: 36px;\r\n\t\t\t\t\t\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\t\t\t\t\t\tpadding-top: 20px;\r\n\t\t\t\t\t\t\t\t\t\ttext-align: center;\r\n\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\tAI Agent Development Internship\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</a>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n        <table\r\n            cellpadding=\"0\"\r\n            cellspacing=\"0\"\r\n            align=\"center\"\r\n            bgcolor=\"#ffffff\"\r\n            border=\"0\"\r\n            width=\"700\"\r\n            class=\"full\"\r\n        >\r\n            <tbody>\r\n                <tr>\r\n                    <td class=\"pdng\" style=\"padding: 40px 30px; text-align: left;\">\r\n                        <p style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0 0 15px; line-height: 20px; font-weight: 400;\">\r\n                            Hi <strong>Varshith Reddy</strong>,\r\n                        </p>\r\n\r\n                        <div class=\"text_box\" style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0; line-height: 22px; font-weight: 400;\">\r\n                            <p>Thank you for your interest in the role of <strong style=\"font-weight: bold;\">'AI Agent Development Internship'</strong>",
+                "Email Parser Agent</p>\r\n<p>Accepts email body text (plain or HTML)</p>\r\n<p>Extracts sender name, request intent, urgency</p>\r\n<p>Returns formatted CRM-style record</p>\r\n<p>Stores conversation ID + parsed metadata in memory</p>\r\n<p>\u00a0</p>\r\n<p>Shared Memory Module (Lightweight)</p>\r\n<p>Should store:</p>\r\n<p>Input metadata (source, type, timestamp)</p>\r\n<p>Extracted fields per agent</p>\r\n<p>Thread/conversation ID if available</p>\r\n<p>You can use Redis, SQLite, or in-memory store</p>\r\n<p>\u00a0</p>\r\n<p>Memory must be readable across agents</p>\r\n<p>\u00a0</p>\r\n<p>End-to-End Flow Example</p>\r\n<p>User uploads an email body \u2192 Classifier detects \"email + RFQ intent\"</p>\r\n<p>Routed to Email Parser \u2192 Extracts sender, request, urgency</p>\r\n<p>\u00a0</p>\r\n<p>Memory stores output</p>\r\n<p>If RFQ references an attached JSON\u2192 also route to JSON agent</p>\r\n<p>Combined structured output is returned (or logged to mock CRM)</p>\r\n<p>\u00a0</p>\r\n<p>Tech Stack Recommendations</p>\r\n<p>Python (Langchain / FastAPI preferred)</p>\r\n<p>LLMs (OpenAI, Gemini, or open-source)</p>\r\n<p>Memory: Redis / SQLite / JSON memory class</p>\r\n<p>Docker (optional, bonus)</p>\r\n<p>\u00a0</p>\r\n<p>Submission Requirements</p>\r\n<p><strong>Working Video is a must</strong></p>\r\n<p>GitHub repo with:</p>\r\n<p>README",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t\tpadding-right: 16px",
+                "important;\r\n\t\t}",
+                "important; \r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" width=\"700\" class=\"full footer_ui\" style=\"background: #f2f2f2;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td class=\"footer_pdng\" style=\"padding: 24px 30px;\">\r\n\t\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" style=\"width: 100%;\">\r\n\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"border-bottom: 1px solid #DEDEDE; padding-bottom: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\thref=\"https://unstop",
+                "important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://apps",
+                "important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500; border-right: 1px solid #D9D9D9; padding-right: 12px; margin-right: 12px;\">\r\n\t\t\t\t\t\t\t\t\tQueries"
+              ],
+              "action_items": []
+            },
+            "processed_at": "2025-05-29T21:24:58.859762"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-29T21:24:58.834136",
+    "last_updated": "2025-05-29T21:24:58.859888"
+  },
+  "544a67c9-22bd-4ece-a1f5-d05a2c1c15c3": {
+    "metadata": {
+      "filename": "Your application has been accepted for the role of AI Agent Development Internship!.eml",
+      "content_type": "message/rfc822",
+      "description": ""
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-29T21:29:11.641350",
+        "agent_output": {
+          "classification": {
+            "format": "email",
+            "intent": "rfq",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-29T21:29:11.658275",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "metadata": {
+              "sender": {
+                "name": "Unstop Events",
+                "email": "updates@unstop.events"
+              },
+              "subject": "Your application has been accepted for the role of AI Agent\r\n Development Internship!",
+              "timestamp": "Wed, 28 May 2025 10:00:49 +0000",
+              "urgency": "medium"
+            },
+            "content": {
+              "intent": "complaint",
+              "key_points": [
+                "important;\r\n            -ms-text-size-adjust: 100%",
+                "important;\r\n            -webkit-font-smoothing: antialiased;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        h1,\r\n        h2,\r\n        h3,\r\n        h4,\r\n        h5,\r\n        h6,\r\n        p,\r\n        span,\r\n        a,\r\n        strong,\r\n        div,\r\n        td {\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        img {\r\n            border: 0",
+                "important;\r\n            outline: none",
+                "important;\r\n            display: block;\r\n        }\r\n\r\n        a {\r\n            text-decoration: none;\r\n            color: #0073e6;\r\n        }",
+                "important;\r\n            text-decoration: underline",
+                "important;\r\n        }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                padding-right: 0",
+                "important;\r\n                text-align: center;\r\n                width: 100%;\r\n                display: block;\r\n                margin-bottom: 15px;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                margin-bottom: 10px",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 22px",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 19px",
+                "important;\r\n                margin-top: 15px",
+                "important;\r\n            }",
+                "important;\r\n                padding-bottom: 15px",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                height: 100px",
+                "important;\r\n            }",
+                "important;\r\n                padding-right: 0",
+                "important;\r\n            }",
+                "important;\r\n                font-size: 16px",
+                "important;\r\n                line-height: 20px",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 21px",
+                "important;\r\n            }",
+                "important;\r\n            }\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n    <div style=\"background-color: #ffffff; width: 100%; margin: 0; padding: 0;\">\r\n        <style>\r\n \t@media (max-width: 600px) {",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t\tline-height: 24px",
+                "important;\r\n\t\t\tpadding-top: 12px",
+                "important;\r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table \r\n\tcellpadding=\"0\" \r\n\tcellspacing=\"0\" \r\n\talign=\"center\" \r\n\tborder=\"0\" \r\n\twidth=\"700\" \r\n\tclass=\"full hedr_higt_1 br0\" \r\n\tstyle=\"\r\n\t\tbackground: #eaf4fe;\r\n\t\tbackground-image: url(https://d8it4huxumps7",
+                "important;\r\n\t\t\t\t\t\t\t\t\t\t\t\toutline: none",
+                "important;\r\n\t\t\t\t\t\t\t\t\t\t\t\tdisplay: block;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-height: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-width: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmargin: auto;\r\n\t\t\t\t\t\t\t\t\t\t\t\" \r\n\t\t\t\t\t\t\t\t\t\t\twidth=\"55\"\r\n\t\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\tclass=\"h1\" \r\n\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\tfont-family: 'Inter', sans-serif;\r\n\t\t\t\t\t\t\t\t\t\tcolor: #1c1c1c;\r\n\t\t\t\t\t\t\t\t\t\tfont-size: 28px;\r\n\t\t\t\t\t\t\t\t\t\tline-height: 36px;\r\n\t\t\t\t\t\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\t\t\t\t\t\tpadding-top: 20px;\r\n\t\t\t\t\t\t\t\t\t\ttext-align: center;\r\n\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\tAI Agent Development Internship\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</a>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n        <table\r\n            cellpadding=\"0\"\r\n            cellspacing=\"0\"\r\n            align=\"center\"\r\n            bgcolor=\"#ffffff\"\r\n            border=\"0\"\r\n            width=\"700\"\r\n            class=\"full\"\r\n        >\r\n            <tbody>\r\n                <tr>\r\n                    <td class=\"pdng\" style=\"padding: 40px 30px; text-align: left;\">\r\n                        <p style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0 0 15px; line-height: 20px; font-weight: 400;\">\r\n                            Hi <strong>Varshith Reddy</strong>,\r\n                        </p>\r\n\r\n                        <div class=\"text_box\" style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0; line-height: 22px; font-weight: 400;\">\r\n                            <p>Thank you for your interest in the role of <strong style=\"font-weight: bold;\">'AI Agent Development Internship'</strong>",
+                "Email Parser Agent</p>\r\n<p>Accepts email body text (plain or HTML)</p>\r\n<p>Extracts sender name, request intent, urgency</p>\r\n<p>Returns formatted CRM-style record</p>\r\n<p>Stores conversation ID + parsed metadata in memory</p>\r\n<p>\u00a0</p>\r\n<p>Shared Memory Module (Lightweight)</p>\r\n<p>Should store:</p>\r\n<p>Input metadata (source, type, timestamp)</p>\r\n<p>Extracted fields per agent</p>\r\n<p>Thread/conversation ID if available</p>\r\n<p>You can use Redis, SQLite, or in-memory store</p>\r\n<p>\u00a0</p>\r\n<p>Memory must be readable across agents</p>\r\n<p>\u00a0</p>\r\n<p>End-to-End Flow Example</p>\r\n<p>User uploads an email body \u2192 Classifier detects \"email + RFQ intent\"</p>\r\n<p>Routed to Email Parser \u2192 Extracts sender, request, urgency</p>\r\n<p>\u00a0</p>\r\n<p>Memory stores output</p>\r\n<p>If RFQ references an attached JSON\u2192 also route to JSON agent</p>\r\n<p>Combined structured output is returned (or logged to mock CRM)</p>\r\n<p>\u00a0</p>\r\n<p>Tech Stack Recommendations</p>\r\n<p>Python (Langchain / FastAPI preferred)</p>\r\n<p>LLMs (OpenAI, Gemini, or open-source)</p>\r\n<p>Memory: Redis / SQLite / JSON memory class</p>\r\n<p>Docker (optional, bonus)</p>\r\n<p>\u00a0</p>\r\n<p>Submission Requirements</p>\r\n<p><strong>Working Video is a must</strong></p>\r\n<p>GitHub repo with:</p>\r\n<p>README",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t\tpadding-right: 16px",
+                "important;\r\n\t\t}",
+                "important; \r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" width=\"700\" class=\"full footer_ui\" style=\"background: #f2f2f2;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td class=\"footer_pdng\" style=\"padding: 24px 30px;\">\r\n\t\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" style=\"width: 100%;\">\r\n\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"border-bottom: 1px solid #DEDEDE; padding-bottom: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\thref=\"https://unstop",
+                "important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://apps",
+                "important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500; border-right: 1px solid #D9D9D9; padding-right: 12px; margin-right: 12px;\">\r\n\t\t\t\t\t\t\t\t\tQueries"
+              ],
+              "action_items": []
+            },
+            "processed_at": "2025-05-29T21:29:11.658239"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-29T21:29:11.632784",
+    "last_updated": "2025-05-29T21:29:11.658281"
+  },
+  "7943cb7c-b19d-4209-b727-c445304ea680": {
+    "metadata": {
+      "filename": "maths-class-x-question-bank (1).pdf",
+      "content_type": "application/pdf",
+      "description": ""
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-29T21:29:19.864957",
+        "agent_output": {
+          "classification": {
+            "format": "pdf",
+            "intent": "invoice",
+            "confidence": 0.85
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-29T21:29:19.435824",
+    "last_updated": "2025-05-29T21:29:19.864971"
+  },
+  "98ee888a-8f8b-4ebd-8404-91d5c0a3b237": {
+    "metadata": {
+      "filename": "package.json",
+      "content_type": "application/json",
+      "description": ""
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-29T21:29:45.023520",
+        "agent_output": {
+          "classification": {
+            "format": "json",
+            "intent": "unknown",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-29T21:29:45.027352",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "data": {
+              "metadata": {
+                "intent": "unknown",
+                "source": "json_agent",
+                "version": "1.0"
+              },
+              "content": {}
+            },
+            "missing_fields": [],
+            "anomalies": [],
+            "processed_at": "2025-05-29T21:29:45.027337"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-29T21:29:45.021071",
+    "last_updated": "2025-05-29T21:29:45.027355"
+  },
+  "e1267c99-bf47-47e3-a49d-79d9cfb247f8": {
+    "metadata": {
+      "filename": "package-lock.json",
+      "content_type": "application/json",
+      "description": ""
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-29T21:34:52.465197",
+        "agent_output": {
+          "classification": {
+            "format": "json",
+            "intent": "regulation",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-29T21:34:52.470751",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "data": {
+              "metadata": {
+                "intent": "regulation",
+                "source": "json_agent",
+                "version": "1.0"
+              },
+              "content": {}
+            },
+            "missing_fields": [
+              "policy_id",
+              "effective_date",
+              "requirements"
+            ],
+            "anomalies": [],
+            "processed_at": "2025-05-29T21:34:52.470600"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-29T21:34:52.454963",
+    "last_updated": "2025-05-29T21:34:52.470759"
+  }
+}
