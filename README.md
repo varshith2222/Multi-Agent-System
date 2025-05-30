@@ -18,18 +18,30 @@ An intelligent document processing system that classifies and extracts informati
 
 ```
 /multi-agent-system
-├── agents/             # Specialized AI agents
-│   ├── classifier.py   # Main classifier agent
-│   ├── json_agent.py  # JSON processing agent
-│   ├── email_agent.py # Email parsing agent
-├── mcp/               # Master Control Program
-│   ├── router.py     # Main routing logic
-│   └── api.py        # FastAPI endpoints
-├── memory/           # Memory management
-│   └── store.py      # Memory implementation
-├── data/             # Sample data files
-├── utils/            # Helper functions
-└── requirements.txt  # Dependencies
+multi agent system/
+├── memory_store.json
+├── README.md
+├── requirements.txt
+├── agents/
+│   ├── classifier.py
+│   ├── email_agent.py
+│   ├── json_agent.py
+│   └── pdf_agent.py
+├── data/
+│   ├── sample_email.txt
+│   ├── sample_invoice.json
+│   └── sample_policy.txt
+├── mcp/
+│   ├── action_router.py
+│   └── api.py
+├── memory/
+│   └── store.py
+├── static/
+│   ├── app.js
+│   └── styles.css
+└── templates/
+    ├── agent_flow.html
+    └── index.html
 ```
 
 ## ⚙️ Setup
@@ -65,3 +77,4 @@ The API will be available at http://localhost:8000
 - `POST /process`: Process any input document
 - `GET /memory/{conversation_id}`: Retrieve processing history
 "# multi-agent-system" 
+"# Multi-Agent-System" 
