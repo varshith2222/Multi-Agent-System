@@ -78,3 +78,9 @@ The API will be available at http://localhost:8000
 - `GET /memory/{conversation_id}`: Retrieve processing history
 "# multi-agent-system" 
 "# Multi-Agent-System" 
+
+## 🖼️ Demo Screenshots
+
+![Homepage Screenshot](assets/homepage.png)
+![Flowchart](assets/flowchart.png)
+
