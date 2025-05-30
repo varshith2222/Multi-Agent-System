@@ -81,6 +81,6 @@ The API will be available at http://localhost:8000
 
 ## 🖼️ Demo Screenshots
 
-![Homepage Screenshot](assets/homepage.png)
-![Flowchart](assets/flowchart.png)
+![Homepage Screenshot](frontend page.png)
+![Flowchart](flowchart.png)
 
