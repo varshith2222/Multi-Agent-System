@@ -1,0 +1,87 @@
+/* Base styles */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Glass effect */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* RGB border animation */
+@keyframes rgb-border {
+    0% { border-color: #ff0000; box-shadow: 0 0 20px #ff0000; }
+    33% { border-color: #00ff00; box-shadow: 0 0 20px #00ff00; }
+    66% { border-color: #0000ff; box-shadow: 0 0 20px #0000ff; }
+    100% { border-color: #ff0000; box-shadow: 0 0 20px #ff0000; }
+}
+
+.rgb-border {
+    animation: rgb-border 5s infinite;
+    border-width: 2px;
+    border-style: solid;
+}
+
+/* Form styles */
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(45deg, #6366f1, #8b5cf6);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+/* Results section */
+#results {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.error {
+    color: #ef4444;
+    padding: 1rem;
+    border: 1px solid #ef4444;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+/* Loading spinner */
+.spinner {
+    width: 2rem;
+    height: 2rem;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}

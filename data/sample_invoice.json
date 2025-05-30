@@ -1,0 +1,31 @@
+{
+    "invoice_number": "INV-2025-001",
+    "issue_date": "2025-05-30",
+    "due_date": "2025-06-30",
+    "amount": 12500.00,
+    "currency": "USD",
+    "items": [
+        {
+            "description": "Professional Services",
+            "quantity": 50,
+            "unit_price": 200.00,
+            "total": 10000.00
+        },
+        {
+            "description": "Software License",
+            "quantity": 1,
+            "unit_price": 2500.00,
+            "total": 2500.00
+        }
+    ],
+    "subtotal": 12500.00,
+    "tax": 0.00,
+    "total": 12500.00,
+    "bill_to": {
+        "name": "ACME Corporation",
+        "address": "123 Business Ave",
+        "city": "Tech City",
+        "country": "USA",
+        "email": "accounts@acme.com"
+    }
+}

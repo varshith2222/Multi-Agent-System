@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Processor</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/static/styles.css">
     <style>
         @keyframes rgb-border {
             0% { border-color: #ff0000; box-shadow: 0 0 20px #ff0000; }
@@ -71,9 +72,15 @@
                 </div>
 
                 <div>
-                    <button type="submit"
+                    <button type="submit" id="submitBtn"
                         class="group relative w-full flex justify-center py-3 px-6 text-lg font-bold rounded-lg text-white bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 focus:outline-none transform transition-all duration-300 hover:scale-105 rgb-border">
-                        Process Document
+                        <span id="btnText">Process Document</span>
+                        <div id="loadingSpinner" class="hidden">
+                            <svg class="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                        </div>
                     </button>
                 </div>
             </form>
@@ -86,50 +93,6 @@
         </div>
     </div>
 
-    <script>
-        document.getElementById('uploadForm').addEventListener('submit', async (e) => {
-            e.preventDefault();
-            
-            const formData = new FormData();
-            formData.append('file', document.getElementById('file').files[0]);
-            formData.append('description', document.getElementById('description').value);
-            
-            try {
-                const response = await fetch('/upload', {
-                    method: 'POST',
-                    body: formData
-                });
-                
-                const data = await response.json();
-                
-                // Display results
-                const results = document.getElementById('results');
-                const resultContent = document.getElementById('resultContent');
-                results.classList.remove('hidden');
-                
-                resultContent.innerHTML = `
-                    <div class="space-y-4">
-                        <div>
-                            <h4 class="font-bold">Classification</h4>
-                            <p>Format: ${data.classification.format}</p>
-                            <p>Intent: ${data.classification.intent}</p>
-                        </div>
-                        
-                        <div>
-                            <h4 class="font-bold">Extracted Data</h4>
-                            <pre class="bg-gray-800 text-purple-100 p-6 rounded-lg overflow-x-auto"><code>${JSON.stringify(data.result, null, 2)}</code></pre>
-                        </div>
-                        
-                        <div>
-                            <p class="text-sm text-gray-500">Conversation ID: ${data.conversation_id}</p>
-                        </div>
-                    </div>
-                `;
-            } catch (error) {
-                console.error('Error:', error);
-                alert('An error occurred while processing the document.');
-            }
-        });
-    </script>
+    <script src="/static/app.js"></script>
 </body>
 </html>

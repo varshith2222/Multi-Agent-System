@@ -322,5 +322,982 @@
     ],
     "created_at": "2025-05-29T21:34:52.454963",
     "last_updated": "2025-05-29T21:34:52.470759"
+  },
+  "4fb8ee01-8ff0-4d59-bb35-4255dc5b9513": {
+    "metadata": {
+      "filename": "package-lock.json",
+      "content_type": "application/json",
+      "description": ""
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-29T22:56:03.430732",
+        "agent_output": {
+          "classification": {
+            "format": "json",
+            "intent": "regulation",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-29T22:56:03.435246",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "data": {
+              "metadata": {
+                "intent": "regulation",
+                "source": "json_agent",
+                "version": "1.0"
+              },
+              "content": {}
+            },
+            "missing_fields": [
+              "policy_id",
+              "effective_date",
+              "requirements"
+            ],
+            "anomalies": [],
+            "processed_at": "2025-05-29T22:56:03.435111"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-29T22:56:03.425177",
+    "last_updated": "2025-05-29T22:56:03.435252"
+  },
+  "f7aa6ed6-4b71-4cc1-8427-4d5e0a817ab3": {
+    "metadata": {
+      "filename": "varsh ai.pdf",
+      "content_type": "application/pdf",
+      "description": ""
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-29T22:56:18.965706",
+        "agent_output": {
+          "classification": {
+            "format": "pdf",
+            "intent": "unknown",
+            "confidence": 0.85
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-29T22:56:18.954242",
+    "last_updated": "2025-05-29T22:56:18.965722"
+  },
+  "9abce493-96c5-423c-9390-e8cc330a5583": {
+    "metadata": {
+      "filename": "Your application has been accepted for the role of AI Agent Development Internship!.eml",
+      "content_type": "message/rfc822",
+      "description": ""
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-29T22:56:31.782914",
+        "agent_output": {
+          "classification": {
+            "format": "email",
+            "intent": "rfq",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-29T22:56:31.794684",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "metadata": {
+              "sender": {
+                "name": "Unstop Events",
+                "email": "updates@unstop.events"
+              },
+              "subject": "Your application has been accepted for the role of AI Agent\r\n Development Internship!",
+              "timestamp": "Wed, 28 May 2025 10:00:49 +0000",
+              "urgency": "medium"
+            },
+            "content": {
+              "intent": "complaint",
+              "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <title>General</title>\r\n    <meta name=\"author\" content=\"\" content=\"\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <meta name=\"x-apple-disable-message-reformatting\">\r\n    <style type=\"text/css\">\r\n        @import  url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');\r\n\r\n        body {\r\n            width: auto;\r\n            background-color: #F6F8FA;\r\n            margin: 0 auto;\r\n            padding: 0;\r\n            font-size: 14px;\r\n            -webkit-text-size-adjust: 100% !important;\r\n            -ms-text-size-adjust: 100% !important;\r\n            -webkit-font-smoothing: antialiased;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        h1,\r\n        h2,\r\n        h3,\r\n        h4,\r\n        h5,\r\n        h6,\r\n        p,\r\n        span,\r\n        a,\r\n        strong,\r\n        div,\r\n        td {\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        img {\r\n            border: 0 !important;\r\n            outline: none !important;\r\n            display: block;\r\n        }\r\n\r\n        a {\r\n            text-decoration: none;\r\n            color: #0073e6;\r\n        }\r\n        .h_text_color:hover {\r\n            color: #0073e6 !important;\r\n            text-decoration: underline !important;\r\n        }\r\n        .footer_sect a:hover {\r\n            opacity: .8;\r\n        }\r\n\r\n        table {\r\n            border-collapse: collapse;\r\n            mso-table-lspace: 0px;\r\n            mso-table-rspace: 0px;\r\n        }\r\n\r\n        .text_box {\r\n            font-size: 15px;\r\n            color: #434343;\r\n            line-height: 22px;\r\n            font-weight: 400;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        .text_box p {\r\n            font-size: 15px;\r\n            color: #434343;\r\n            margin: 0 0 15px;\r\n            line-height: 22px;\r\n            font-weight: 400;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box strong {\r\n            font-weight: 700;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box ul,\r\n        .text_box ol {\r\n            margin: 10px 0 15px;\r\n            padding: 0;\r\n            padding-left: 30px;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box ul li,\r\n        .text_box ol li {\r\n            font-size: 15px;\r\n            color: #434343;\r\n            margin: 0 0 10px;\r\n            line-height: 20px;\r\n            font-weight: 400;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box a {\r\n            color: #0073e6;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        .text_box p img {\r\n            display: inline-block;\r\n        }\r\n\r\n        @media (max-width: 600px) {\r\n            .full {\r\n                width: 100% !important;\r\n            }\r\n            .pdng {\r\n                padding: 20px 15px !important;\r\n            }\r\n\r\n            .footer_sect {\r\n                display: block;\r\n            }\r\n            .footer_sect .follow {\r\n                border-right: 0 !important;\r\n                padding-right: 0 !important;\r\n                text-align: center;\r\n                width: 100%;\r\n                display: block;\r\n                margin-bottom: 15px;\r\n            }\r\n            .footer_store {\r\n                width: 100%;\r\n                text-align: center;\r\n                display: block;\r\n            }\r\n            .footer_store .coin {\r\n                padding-left: 0 !important;\r\n            }\r\n            .footer_sect p {\r\n                font-size: 13px !important;\r\n                margin-bottom: 10px !important;\r\n            }\r\n            .footer_sect img {\r\n                width: 35px !important;\r\n            }\r\n            .disclaimer {\r\n                padding: 20px 15px 0px !important;\r\n            }\r\n            .queries p,\r\n            .disclaimer p {\r\n                font-size: 13px !important;\r\n            }\r\n            .queries p br {\r\n                display: none;\r\n            }\r\n            .queries .copyright {\r\n                margin-top: 5px !important;\r\n            }\r\n            .title {\r\n                font-size: 16px !important;\r\n                line-height: 22px !important;\r\n            }\r\n            .sub_title {\r\n                font-size: 14px !important;\r\n                line-height: 19px !important;\r\n                margin-top: 15px !important;\r\n            }\r\n            .opp_list {\r\n                display: block;\r\n            }\r\n            .opp_list td {\r\n                display: block;\r\n                width: 100% !important;\r\n                padding-bottom: 15px !important;\r\n            }\r\n            .view_more {\r\n                margin-top: 0 !important;\r\n            }\r\n\r\n            .hedr_bg {\r\n                padding: 10px 15px 20px !important;\r\n            }\r\n            .logo_box {\r\n                width: 100px !important;\r\n            }\r\n            .logo_box div {\r\n                width: 100px !important;\r\n                height: 100px !important;\r\n            }\r\n            .cptn_box {\r\n                padding-left: 15px !important;\r\n                padding-right: 0 !important;\r\n            }\r\n            .cptn_box h2 {\r\n                margin: 0px 0 5px !important;\r\n                font-size: 16px !important;\r\n                line-height: 20px !important;\r\n            }\r\n            .cptn_box p {\r\n                font-size: 15px !important;\r\n                line-height: 21px !important;\r\n            }\r\n            .unstop_icon {\r\n                margin-bottom: 15px;\r\n            }\r\n            .unstop_icon img {\r\n                width: 75px !important;\r\n            }\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n    <div style=\"background-color: #ffffff; width: 100%; margin: 0; padding: 0;\">\r\n        <style>\r\n \t@media (max-width: 600px) {\r\n\t\t.full {\r\n\t\t\twidth: 100% !important;\r\n\t\t}\r\n\t\t.pdng {\r\n\t\t\tpadding: 30px 16px !important;\r\n\t\t}\r\n\t\t.hedr_higt_1 {\r\n\t\t\tmin-height: 196px !important;\r\n\t\t}\r\n\t\t.header {\r\n\t\t\tpadding: 30px 16px !important;\r\n\t\t}\r\n\r\n\t\t.header .logo {\r\n\t\t\theight: 70px !important;\r\n\t\t}\r\n\r\n\t\t.header .h1 {\r\n\t\t\tfont-size: 20px !important;\r\n\t\t\tline-height: 24px !important;\r\n\t\t\tpadding-top: 12px !important;\r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table \r\n\tcellpadding=\"0\" \r\n\tcellspacing=\"0\" \r\n\talign=\"center\" \r\n\tborder=\"0\" \r\n\twidth=\"700\" \r\n\tclass=\"full hedr_higt_1 br0\" \r\n\tstyle=\"\r\n\t\tbackground: #eaf4fe;\r\n\t\tbackground-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/6643444858bad_top_vector.png);\r\n\t\tbackground-size: 98%;\r\n\t\tbackground-position: top right;\r\n\t\tbackground-repeat: no-repeat;\r\n\t\tmin-height: 242px;\r\n\t\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td \r\n\t\t\t\tclass=\"header\" \r\n\t\t\t\tstyle=\"\r\n\t\t\t\t\tpadding: 42px 50px;\r\n\t\t\t\t\tbackground-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/6643445d4d288_bottom_vector.png);\r\n\t\t\t\t\tbackground-size: 98%;\r\n\t\t\t\t\tbackground-position: bottom left;\r\n\t\t\t\t\tbackground-repeat: no-repeat;\r\n\t\t\t\t\"\r\n\t\t\t>\r\n\t\t\t\t<a href=\"https://unstop.com/internships/ai-agent-development-internship-flowbit-private-limited-1482335\" target=\"_blank\" style=\"display: block; color:inherit; text-decoration: none;\">\r\n\t\t\t\t\t<table style=\"width: 100%;\">\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<div style=\"display: inline-block;\">\r\n\t\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\t\tclass=\"logo\" \r\n\t\t\t\t\t\t\t\t\t\twidth=\"70\" \r\n\t\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\t\twidth: 70px;\r\n\t\t\t\t\t\t\t\t\t\t\tmin-width:70px;\r\n\t\t\t\t\t\t\t\t\t\t\theight: 70px;\r\n\t\t\t\t\t\t\t\t\t\t\tbackground: #fff;\r\n\t\t\t\t\t\t\t\t\t\t\tborder-radius: 8px;\r\n\t\t\t\t\t\t\t\t\t\t\tbackground-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/un-emails/white-bg.png);\r\n\t\t\t\t\t\t\t\t\t\t\tbackground-size: cover;\r\n\t\t\t\t\t\t\t\t\t\t\tvertical-align: middle;\r\n\t\t\t\t\t\t\t\t\t\t\tbox-sizing: border-box;\r\n\t\t\t\t\t\t\t\t\t\t\tdisplay: table-cell;\r\n\t\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t\t<img \r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/75x75/682cd575a078e_organisation_image-XVrJJRNugU17095072931U5NYrJLLu.png\" \r\n\t\t\t\t\t\t\t\t\t\t\talt=\"\" \r\n\t\t\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\t\t\tbox-sizing: border-box;\r\n\t\t\t\t\t\t\t\t\t\t\t\tborder: 0!important;\r\n\t\t\t\t\t\t\t\t\t\t\t\toutline: none!important;\r\n\t\t\t\t\t\t\t\t\t\t\t\tdisplay: block;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-height: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-width: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmargin: auto;\r\n\t\t\t\t\t\t\t\t\t\t\t\" \r\n\t\t\t\t\t\t\t\t\t\t\twidth=\"55\"\r\n\t\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\tclass=\"h1\" \r\n\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\tfont-family: 'Inter', sans-serif;\r\n\t\t\t\t\t\t\t\t\t\tcolor: #1c1c1c;\r\n\t\t\t\t\t\t\t\t\t\tfont-size: 28px;\r\n\t\t\t\t\t\t\t\t\t\tline-height: 36px;\r\n\t\t\t\t\t\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\t\t\t\t\t\tpadding-top: 20px;\r\n\t\t\t\t\t\t\t\t\t\ttext-align: center;\r\n\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\tAI Agent Development Internship\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</a>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n        <table\r\n            cellpadding=\"0\"\r\n            cellspacing=\"0\"\r\n            align=\"center\"\r\n            bgcolor=\"#ffffff\"\r\n            border=\"0\"\r\n            width=\"700\"\r\n            class=\"full\"\r\n        >\r\n            <tbody>\r\n                <tr>\r\n                    <td class=\"pdng\" style=\"padding: 40px 30px; text-align: left;\">\r\n                        <p style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0 0 15px; line-height: 20px; font-weight: 400;\">\r\n                            Hi <strong>Varshith Reddy</strong>,\r\n                        </p>\r\n\r\n                        <div class=\"text_box\" style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0; line-height: 22px; font-weight: 400;\">\r\n                            <p>Thank you for your interest in the role of <strong style=\"font-weight: bold;\">'AI Agent Development Internship'</strong>! <br /><br />As part of your next round of Interview.\u00a0<br /><br />For more updates about the company make sure to follow the company page on Linkedin. <a href=\"https://www.linkedin.com/company/flowbit-ai/\">Flowbit AI</a><br /><br /></p>\r\n<p data-pm-slice=\"1 1 []\">Multi-Format Intake Agent with Intelligent Routing & Context Memory\u201d</p>\r\n<p>Objective</p>\r\n<p>Build a multi-agent AI system that can accept data in PDF, JSON, or Email (text) format, intelligently classify the input type and purpose, and then route it to the right specialized agent for extraction. The system should maintain context (e.g., sender, topic, last extracted fields) to support downstream chaining or audits.</p>\r\n<p>\u00a0</p>\r\n<p>System Overview</p>\r\n<p>You are to build 3 core agents, all orchestrated through a central Classifier Agent:</p>\r\n<p>\u00a0</p>\r\n<p>1. Classifier Agent</p>\r\n<p>Receives raw input (file/email/JSON body)</p>\r\n<p>Classifies:</p>\r\n<p>Format: PDF / JSON / Email</p>\r\n<p>Intent: Invoice, RFQ, Complaint, Regulation, etc.</p>\r\n<p>Routes to the appropriate extraction agent</p>\r\n<p>Adds format + intent to shared memory</p>\r\n<p>\u00a0</p>\r\n<p>2. JSON Agent</p>\r\n<p>Accepts arbitrary JSON (e.g., webhook payloads, APIs)</p>\r\n<p>Extracts and re-formats data to a defined FlowBit schema</p>\r\n<p>Identifies anomalies or missing fields</p>\r\n<p>\u00a0</p>\r\n<p>3. Email Parser Agent</p>\r\n<p>Accepts email body text (plain or HTML)</p>\r\n<p>Extracts sender name, request intent, urgency</p>\r\n<p>Returns formatted CRM-style record</p>\r\n<p>Stores conversation ID + parsed metadata in memory</p>\r\n<p>\u00a0</p>\r\n<p>Shared Memory Module (Lightweight)</p>\r\n<p>Should store:</p>\r\n<p>Input metadata (source, type, timestamp)</p>\r\n<p>Extracted fields per agent</p>\r\n<p>Thread/conversation ID if available</p>\r\n<p>You can use Redis, SQLite, or in-memory store</p>\r\n<p>\u00a0</p>\r\n<p>Memory must be readable across agents</p>\r\n<p>\u00a0</p>\r\n<p>End-to-End Flow Example</p>\r\n<p>User uploads an email body \u2192 Classifier detects \"email + RFQ intent\"</p>\r\n<p>Routed to Email Parser \u2192 Extracts sender, request, urgency</p>\r\n<p>\u00a0</p>\r\n<p>Memory stores output</p>\r\n<p>If RFQ references an attached JSON\u2192 also route to JSON agent</p>\r\n<p>Combined structured output is returned (or logged to mock CRM)</p>\r\n<p>\u00a0</p>\r\n<p>Tech Stack Recommendations</p>\r\n<p>Python (Langchain / FastAPI preferred)</p>\r\n<p>LLMs (OpenAI, Gemini, or open-source)</p>\r\n<p>Memory: Redis / SQLite / JSON memory class</p>\r\n<p>Docker (optional, bonus)</p>\r\n<p>\u00a0</p>\r\n<p>Submission Requirements</p>\r\n<p><strong>Working Video is a must</strong></p>\r\n<p>GitHub repo with:</p>\r\n<p>README.md</p>\r\n<p>Sample input files (PDFs, JSONs, emails)</p>\r\n<p>Folder structure: /agents, /mcp, /memory, /data, /utils</p>\r\n<p>Sample output logs or screenshots</p>\r\n<p><br /><br />All the Best!<br /><br />Regards,<br />Flowbit Private Limited Team</p>\r\n                        </div>\r\n\r\n                        <div style=\"padding-top:20px; text-align:center;\">\r\n                            <a href=\"https://unstop.com/internships/ai-agent-development-internship-flowbit-private-limited-1482335\" target=\"_blank\" style=\"display: inline-block; padding: 12px 32px; background: #0073E6; border-radius: 50px; font-weight: 500; font-size: 14px; line-height: 16px; color: #FFFFFF; cursor: pointer; box-sizing: border-box;\">\r\n                                View Opportunity\r\n                            </a>\r\n                        </div>\r\n                    </td>\r\n                </tr>\r\n            </tbody>\r\n        </table>\r\n\r\n        \r\n        <style>\r\n\t.footer_sect a:hover {\r\n\t\topacity: .8;\r\n\t}\r\n\t@media (max-width: 600px) {\r\n\t\t.full {\r\n\t\t\twidth: 100% !important;\r\n\t\t}\r\n\t\t.footer_ui {\r\n\t\t\tborder-radius: 8px;\r\n\t\t}\r\n\t\t.footer_ui .footer_pdng {\r\n\t\t\tpadding-left: 16px !important;\r\n\t\t\tpadding-right: 16px !important;\r\n\t\t}\r\n\t\t.footer_ui .un_logo {\r\n\t\t\twidth: 100px !important; \r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" width=\"700\" class=\"full footer_ui\" style=\"background: #f2f2f2;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td class=\"footer_pdng\" style=\"padding: 24px 30px;\">\r\n\t\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" style=\"width: 100%;\">\r\n\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"border-bottom: 1px solid #DEDEDE; padding-bottom: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\thref=\"https://unstop.com/pro\"\r\n\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none;\"\r\n\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66434fd4a4152_unstop_logo.png\"\r\n\t\t\t\t\t\t\t\t\t\talt=\"Unstop pro logo\" style=\"display: block; width: 120px;\"\r\n\t\t\t\t\t\t\t\t\t\tclass=\"un_logo\"\r\n\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<p\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; color: #1c1c1c; font-size: 12px; font-weight: 500; margin: 0 0 10px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t\tJoin our evergrowing unstoppable community\r\n\t\t\t\t\t\t\t\t</p>\r\n\r\n\t\t\t\t\t\t\t\t<div style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/unstop.world/\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433aee6e146_instagram.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Instagram Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/unstop/\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433aff63c9b_linkedin.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Linkedin Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://t.me/+ON15qceSy-IyZjY9\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433b096c58b_telegram.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Telegram Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\t\thref=\"https://www.youtube.com/c/Unstop_World\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\" \r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\r\n\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433b12a37a3_youtube.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Youtube Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<p style=\"font-family: 'Inter', sans-serif; color: #1c1c1c; font-size: 12px; font-weight: 500; margin: 0 0 10px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t\tGet the Unstop app\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t<div>\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://play.google.com/store/apps/details?id=com.dare2compete.app\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/6641f370d8dc5_google_play.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Play Store Icon\"\r\n\t\t\t\t\t\t\t\t\t\t\tstyle=\"display: block; width: 120px; border: 1px solid #1c1c1c !important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://apps.apple.com/in/app/unstop-formerly-dare2compete/id1601170365\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none;\" target=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/6641f38f1c761_app_store.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"App Store Icon\"\r\n\t\t\t\t\t\t\t\t\t\t\tstyle=\"display: block; width: 120px; border: 1px solid #1c1c1c !important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500; border-right: 1px solid #D9D9D9; padding-right: 12px; margin-right: 12px;\">\r\n\t\t\t\t\t\t\t\t\tQueries? We're just one email away: <a href=\"mailto:support@unstop.com\" class=\"h_text_color\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; color: #1c1c1c; text-decoration: none;\">support@unstop.com</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\r\n\t\t\t\t\t\t\t\t<span style=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500;\">\r\n\t\t\t\t\t\t\t\t\t\u00a9 2025 <a class=\"h_text_color\" href=\"https://unstop.com/\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; color: #1c1c1c; text-decoration: none;\">Unstop</a>.\r\n\t\t\t\t\t\t\t\t\tAll rights reserved\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</tbody>\r\n\t\t\t\t</table>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>    </div>\r\n</body>\r\n\r\n</html>",
+              "key_points": [
+                "important;\r\n            -ms-text-size-adjust: 100%",
+                "important;\r\n            -webkit-font-smoothing: antialiased;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        h1,\r\n        h2,\r\n        h3,\r\n        h4,\r\n        h5,\r\n        h6,\r\n        p,\r\n        span,\r\n        a,\r\n        strong,\r\n        div,\r\n        td {\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        img {\r\n            border: 0",
+                "important;\r\n            outline: none",
+                "important;\r\n            display: block;\r\n        }\r\n\r\n        a {\r\n            text-decoration: none;\r\n            color: #0073e6;\r\n        }",
+                "important;\r\n            text-decoration: underline",
+                "important;\r\n        }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                padding-right: 0",
+                "important;\r\n                text-align: center;\r\n                width: 100%;\r\n                display: block;\r\n                margin-bottom: 15px;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                margin-bottom: 10px",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 22px",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 19px",
+                "important;\r\n                margin-top: 15px",
+                "important;\r\n            }",
+                "important;\r\n                padding-bottom: 15px",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                height: 100px",
+                "important;\r\n            }",
+                "important;\r\n                padding-right: 0",
+                "important;\r\n            }",
+                "important;\r\n                font-size: 16px",
+                "important;\r\n                line-height: 20px",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 21px",
+                "important;\r\n            }",
+                "important;\r\n            }\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n    <div style=\"background-color: #ffffff; width: 100%; margin: 0; padding: 0;\">\r\n        <style>\r\n \t@media (max-width: 600px) {",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t\tline-height: 24px",
+                "important;\r\n\t\t\tpadding-top: 12px",
+                "important;\r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table \r\n\tcellpadding=\"0\" \r\n\tcellspacing=\"0\" \r\n\talign=\"center\" \r\n\tborder=\"0\" \r\n\twidth=\"700\" \r\n\tclass=\"full hedr_higt_1 br0\" \r\n\tstyle=\"\r\n\t\tbackground: #eaf4fe;\r\n\t\tbackground-image: url(https://d8it4huxumps7",
+                "important;\r\n\t\t\t\t\t\t\t\t\t\t\t\toutline: none",
+                "important;\r\n\t\t\t\t\t\t\t\t\t\t\t\tdisplay: block;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-height: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-width: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmargin: auto;\r\n\t\t\t\t\t\t\t\t\t\t\t\" \r\n\t\t\t\t\t\t\t\t\t\t\twidth=\"55\"\r\n\t\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\tclass=\"h1\" \r\n\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\tfont-family: 'Inter', sans-serif;\r\n\t\t\t\t\t\t\t\t\t\tcolor: #1c1c1c;\r\n\t\t\t\t\t\t\t\t\t\tfont-size: 28px;\r\n\t\t\t\t\t\t\t\t\t\tline-height: 36px;\r\n\t\t\t\t\t\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\t\t\t\t\t\tpadding-top: 20px;\r\n\t\t\t\t\t\t\t\t\t\ttext-align: center;\r\n\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\tAI Agent Development Internship\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</a>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n        <table\r\n            cellpadding=\"0\"\r\n            cellspacing=\"0\"\r\n            align=\"center\"\r\n            bgcolor=\"#ffffff\"\r\n            border=\"0\"\r\n            width=\"700\"\r\n            class=\"full\"\r\n        >\r\n            <tbody>\r\n                <tr>\r\n                    <td class=\"pdng\" style=\"padding: 40px 30px; text-align: left;\">\r\n                        <p style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0 0 15px; line-height: 20px; font-weight: 400;\">\r\n                            Hi <strong>Varshith Reddy</strong>,\r\n                        </p>\r\n\r\n                        <div class=\"text_box\" style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0; line-height: 22px; font-weight: 400;\">\r\n                            <p>Thank you for your interest in the role of <strong style=\"font-weight: bold;\">'AI Agent Development Internship'</strong>",
+                "Email Parser Agent</p>\r\n<p>Accepts email body text (plain or HTML)</p>\r\n<p>Extracts sender name, request intent, urgency</p>\r\n<p>Returns formatted CRM-style record</p>\r\n<p>Stores conversation ID + parsed metadata in memory</p>\r\n<p>\u00a0</p>\r\n<p>Shared Memory Module (Lightweight)</p>\r\n<p>Should store:</p>\r\n<p>Input metadata (source, type, timestamp)</p>\r\n<p>Extracted fields per agent</p>\r\n<p>Thread/conversation ID if available</p>\r\n<p>You can use Redis, SQLite, or in-memory store</p>\r\n<p>\u00a0</p>\r\n<p>Memory must be readable across agents</p>\r\n<p>\u00a0</p>\r\n<p>End-to-End Flow Example</p>\r\n<p>User uploads an email body \u2192 Classifier detects \"email + RFQ intent\"</p>\r\n<p>Routed to Email Parser \u2192 Extracts sender, request, urgency</p>\r\n<p>\u00a0</p>\r\n<p>Memory stores output</p>\r\n<p>If RFQ references an attached JSON\u2192 also route to JSON agent</p>\r\n<p>Combined structured output is returned (or logged to mock CRM)</p>\r\n<p>\u00a0</p>\r\n<p>Tech Stack Recommendations</p>\r\n<p>Python (Langchain / FastAPI preferred)</p>\r\n<p>LLMs (OpenAI, Gemini, or open-source)</p>\r\n<p>Memory: Redis / SQLite / JSON memory class</p>\r\n<p>Docker (optional, bonus)</p>\r\n<p>\u00a0</p>\r\n<p>Submission Requirements</p>\r\n<p><strong>Working Video is a must</strong></p>\r\n<p>GitHub repo with:</p>\r\n<p>README",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t\tpadding-right: 16px",
+                "important;\r\n\t\t}",
+                "important; \r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" width=\"700\" class=\"full footer_ui\" style=\"background: #f2f2f2;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td class=\"footer_pdng\" style=\"padding: 24px 30px;\">\r\n\t\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" style=\"width: 100%;\">\r\n\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"border-bottom: 1px solid #DEDEDE; padding-bottom: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\thref=\"https://unstop",
+                "important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://apps",
+                "important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500; border-right: 1px solid #D9D9D9; padding-right: 12px; margin-right: 12px;\">\r\n\t\t\t\t\t\t\t\t\tQueries"
+              ],
+              "action_items": []
+            },
+            "processed_at": "2025-05-29T22:56:31.794658"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-29T22:56:31.778329",
+    "last_updated": "2025-05-29T22:56:31.794689"
+  },
+  "5a9d40b0-82ab-4498-b275-e09afa5396cc": {
+    "metadata": {
+      "filename": "varsh ai.pdf",
+      "content_type": "application/pdf",
+      "description": ""
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-29T23:02:20.383489",
+        "agent_output": {
+          "classification": {
+            "format": "pdf",
+            "intent": "unknown",
+            "confidence": 0.85
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-29T23:02:20.372045",
+    "last_updated": "2025-05-29T23:02:20.383509"
+  },
+  "4db60b83-7e65-4a1b-ae44-03a5120ae80e": {
+    "metadata": {
+      "filename": "Your application has been accepted for the role of AI Agent Development Internship!.eml",
+      "content_type": "message/rfc822",
+      "description": ""
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-29T23:02:30.775700",
+        "agent_output": {
+          "classification": {
+            "format": "email",
+            "intent": "rfq",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-29T23:02:30.788089",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "metadata": {
+              "sender": {
+                "name": "Unstop Events",
+                "email": "updates@unstop.events"
+              },
+              "subject": "Your application has been accepted for the role of AI Agent\r\n Development Internship!",
+              "timestamp": "Wed, 28 May 2025 10:00:49 +0000",
+              "urgency": "medium"
+            },
+            "content": {
+              "intent": "complaint",
+              "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <title>General</title>\r\n    <meta name=\"author\" content=\"\" content=\"\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <meta name=\"x-apple-disable-message-reformatting\">\r\n    <style type=\"text/css\">\r\n        @import  url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');\r\n\r\n        body {\r\n            width: auto;\r\n            background-color: #F6F8FA;\r\n            margin: 0 auto;\r\n            padding: 0;\r\n            font-size: 14px;\r\n            -webkit-text-size-adjust: 100% !important;\r\n            -ms-text-size-adjust: 100% !important;\r\n            -webkit-font-smoothing: antialiased;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        h1,\r\n        h2,\r\n        h3,\r\n        h4,\r\n        h5,\r\n        h6,\r\n        p,\r\n        span,\r\n        a,\r\n        strong,\r\n        div,\r\n        td {\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        img {\r\n            border: 0 !important;\r\n            outline: none !important;\r\n            display: block;\r\n        }\r\n\r\n        a {\r\n            text-decoration: none;\r\n            color: #0073e6;\r\n        }\r\n        .h_text_color:hover {\r\n            color: #0073e6 !important;\r\n            text-decoration: underline !important;\r\n        }\r\n        .footer_sect a:hover {\r\n            opacity: .8;\r\n        }\r\n\r\n        table {\r\n            border-collapse: collapse;\r\n            mso-table-lspace: 0px;\r\n            mso-table-rspace: 0px;\r\n        }\r\n\r\n        .text_box {\r\n            font-size: 15px;\r\n            color: #434343;\r\n            line-height: 22px;\r\n            font-weight: 400;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        .text_box p {\r\n            font-size: 15px;\r\n            color: #434343;\r\n            margin: 0 0 15px;\r\n            line-height: 22px;\r\n            font-weight: 400;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box strong {\r\n            font-weight: 700;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box ul,\r\n        .text_box ol {\r\n            margin: 10px 0 15px;\r\n            padding: 0;\r\n            padding-left: 30px;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box ul li,\r\n        .text_box ol li {\r\n            font-size: 15px;\r\n            color: #434343;\r\n            margin: 0 0 10px;\r\n            line-height: 20px;\r\n            font-weight: 400;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box a {\r\n            color: #0073e6;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        .text_box p img {\r\n            display: inline-block;\r\n        }\r\n\r\n        @media (max-width: 600px) {\r\n            .full {\r\n                width: 100% !important;\r\n            }\r\n            .pdng {\r\n                padding: 20px 15px !important;\r\n            }\r\n\r\n            .footer_sect {\r\n                display: block;\r\n            }\r\n            .footer_sect .follow {\r\n                border-right: 0 !important;\r\n                padding-right: 0 !important;\r\n                text-align: center;\r\n                width: 100%;\r\n                display: block;\r\n                margin-bottom: 15px;\r\n            }\r\n            .footer_store {\r\n                width: 100%;\r\n                text-align: center;\r\n                display: block;\r\n            }\r\n            .footer_store .coin {\r\n                padding-left: 0 !important;\r\n            }\r\n            .footer_sect p {\r\n                font-size: 13px !important;\r\n                margin-bottom: 10px !important;\r\n            }\r\n            .footer_sect img {\r\n                width: 35px !important;\r\n            }\r\n            .disclaimer {\r\n                padding: 20px 15px 0px !important;\r\n            }\r\n            .queries p,\r\n            .disclaimer p {\r\n                font-size: 13px !important;\r\n            }\r\n            .queries p br {\r\n                display: none;\r\n            }\r\n            .queries .copyright {\r\n                margin-top: 5px !important;\r\n            }\r\n            .title {\r\n                font-size: 16px !important;\r\n                line-height: 22px !important;\r\n            }\r\n            .sub_title {\r\n                font-size: 14px !important;\r\n                line-height: 19px !important;\r\n                margin-top: 15px !important;\r\n            }\r\n            .opp_list {\r\n                display: block;\r\n            }\r\n            .opp_list td {\r\n                display: block;\r\n                width: 100% !important;\r\n                padding-bottom: 15px !important;\r\n            }\r\n            .view_more {\r\n                margin-top: 0 !important;\r\n            }\r\n\r\n            .hedr_bg {\r\n                padding: 10px 15px 20px !important;\r\n            }\r\n            .logo_box {\r\n                width: 100px !important;\r\n            }\r\n            .logo_box div {\r\n                width: 100px !important;\r\n                height: 100px !important;\r\n            }\r\n            .cptn_box {\r\n                padding-left: 15px !important;\r\n                padding-right: 0 !important;\r\n            }\r\n            .cptn_box h2 {\r\n                margin: 0px 0 5px !important;\r\n                font-size: 16px !important;\r\n                line-height: 20px !important;\r\n            }\r\n            .cptn_box p {\r\n                font-size: 15px !important;\r\n                line-height: 21px !important;\r\n            }\r\n            .unstop_icon {\r\n                margin-bottom: 15px;\r\n            }\r\n            .unstop_icon img {\r\n                width: 75px !important;\r\n            }\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n    <div style=\"background-color: #ffffff; width: 100%; margin: 0; padding: 0;\">\r\n        <style>\r\n \t@media (max-width: 600px) {\r\n\t\t.full {\r\n\t\t\twidth: 100% !important;\r\n\t\t}\r\n\t\t.pdng {\r\n\t\t\tpadding: 30px 16px !important;\r\n\t\t}\r\n\t\t.hedr_higt_1 {\r\n\t\t\tmin-height: 196px !important;\r\n\t\t}\r\n\t\t.header {\r\n\t\t\tpadding: 30px 16px !important;\r\n\t\t}\r\n\r\n\t\t.header .logo {\r\n\t\t\theight: 70px !important;\r\n\t\t}\r\n\r\n\t\t.header .h1 {\r\n\t\t\tfont-size: 20px !important;\r\n\t\t\tline-height: 24px !important;\r\n\t\t\tpadding-top: 12px !important;\r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table \r\n\tcellpadding=\"0\" \r\n\tcellspacing=\"0\" \r\n\talign=\"center\" \r\n\tborder=\"0\" \r\n\twidth=\"700\" \r\n\tclass=\"full hedr_higt_1 br0\" \r\n\tstyle=\"\r\n\t\tbackground: #eaf4fe;\r\n\t\tbackground-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/6643444858bad_top_vector.png);\r\n\t\tbackground-size: 98%;\r\n\t\tbackground-position: top right;\r\n\t\tbackground-repeat: no-repeat;\r\n\t\tmin-height: 242px;\r\n\t\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td \r\n\t\t\t\tclass=\"header\" \r\n\t\t\t\tstyle=\"\r\n\t\t\t\t\tpadding: 42px 50px;\r\n\t\t\t\t\tbackground-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/6643445d4d288_bottom_vector.png);\r\n\t\t\t\t\tbackground-size: 98%;\r\n\t\t\t\t\tbackground-position: bottom left;\r\n\t\t\t\t\tbackground-repeat: no-repeat;\r\n\t\t\t\t\"\r\n\t\t\t>\r\n\t\t\t\t<a href=\"https://unstop.com/internships/ai-agent-development-internship-flowbit-private-limited-1482335\" target=\"_blank\" style=\"display: block; color:inherit; text-decoration: none;\">\r\n\t\t\t\t\t<table style=\"width: 100%;\">\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<div style=\"display: inline-block;\">\r\n\t\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\t\tclass=\"logo\" \r\n\t\t\t\t\t\t\t\t\t\twidth=\"70\" \r\n\t\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\t\twidth: 70px;\r\n\t\t\t\t\t\t\t\t\t\t\tmin-width:70px;\r\n\t\t\t\t\t\t\t\t\t\t\theight: 70px;\r\n\t\t\t\t\t\t\t\t\t\t\tbackground: #fff;\r\n\t\t\t\t\t\t\t\t\t\t\tborder-radius: 8px;\r\n\t\t\t\t\t\t\t\t\t\t\tbackground-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/un-emails/white-bg.png);\r\n\t\t\t\t\t\t\t\t\t\t\tbackground-size: cover;\r\n\t\t\t\t\t\t\t\t\t\t\tvertical-align: middle;\r\n\t\t\t\t\t\t\t\t\t\t\tbox-sizing: border-box;\r\n\t\t\t\t\t\t\t\t\t\t\tdisplay: table-cell;\r\n\t\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t\t<img \r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/75x75/682cd575a078e_organisation_image-XVrJJRNugU17095072931U5NYrJLLu.png\" \r\n\t\t\t\t\t\t\t\t\t\t\talt=\"\" \r\n\t\t\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\t\t\tbox-sizing: border-box;\r\n\t\t\t\t\t\t\t\t\t\t\t\tborder: 0!important;\r\n\t\t\t\t\t\t\t\t\t\t\t\toutline: none!important;\r\n\t\t\t\t\t\t\t\t\t\t\t\tdisplay: block;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-height: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-width: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmargin: auto;\r\n\t\t\t\t\t\t\t\t\t\t\t\" \r\n\t\t\t\t\t\t\t\t\t\t\twidth=\"55\"\r\n\t\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\tclass=\"h1\" \r\n\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\tfont-family: 'Inter', sans-serif;\r\n\t\t\t\t\t\t\t\t\t\tcolor: #1c1c1c;\r\n\t\t\t\t\t\t\t\t\t\tfont-size: 28px;\r\n\t\t\t\t\t\t\t\t\t\tline-height: 36px;\r\n\t\t\t\t\t\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\t\t\t\t\t\tpadding-top: 20px;\r\n\t\t\t\t\t\t\t\t\t\ttext-align: center;\r\n\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\tAI Agent Development Internship\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</a>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n        <table\r\n            cellpadding=\"0\"\r\n            cellspacing=\"0\"\r\n            align=\"center\"\r\n            bgcolor=\"#ffffff\"\r\n            border=\"0\"\r\n            width=\"700\"\r\n            class=\"full\"\r\n        >\r\n            <tbody>\r\n                <tr>\r\n                    <td class=\"pdng\" style=\"padding: 40px 30px; text-align: left;\">\r\n                        <p style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0 0 15px; line-height: 20px; font-weight: 400;\">\r\n                            Hi <strong>Varshith Reddy</strong>,\r\n                        </p>\r\n\r\n                        <div class=\"text_box\" style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0; line-height: 22px; font-weight: 400;\">\r\n                            <p>Thank you for your interest in the role of <strong style=\"font-weight: bold;\">'AI Agent Development Internship'</strong>! <br /><br />As part of your next round of Interview.\u00a0<br /><br />For more updates about the company make sure to follow the company page on Linkedin. <a href=\"https://www.linkedin.com/company/flowbit-ai/\">Flowbit AI</a><br /><br /></p>\r\n<p data-pm-slice=\"1 1 []\">Multi-Format Intake Agent with Intelligent Routing & Context Memory\u201d</p>\r\n<p>Objective</p>\r\n<p>Build a multi-agent AI system that can accept data in PDF, JSON, or Email (text) format, intelligently classify the input type and purpose, and then route it to the right specialized agent for extraction. The system should maintain context (e.g., sender, topic, last extracted fields) to support downstream chaining or audits.</p>\r\n<p>\u00a0</p>\r\n<p>System Overview</p>\r\n<p>You are to build 3 core agents, all orchestrated through a central Classifier Agent:</p>\r\n<p>\u00a0</p>\r\n<p>1. Classifier Agent</p>\r\n<p>Receives raw input (file/email/JSON body)</p>\r\n<p>Classifies:</p>\r\n<p>Format: PDF / JSON / Email</p>\r\n<p>Intent: Invoice, RFQ, Complaint, Regulation, etc.</p>\r\n<p>Routes to the appropriate extraction agent</p>\r\n<p>Adds format + intent to shared memory</p>\r\n<p>\u00a0</p>\r\n<p>2. JSON Agent</p>\r\n<p>Accepts arbitrary JSON (e.g., webhook payloads, APIs)</p>\r\n<p>Extracts and re-formats data to a defined FlowBit schema</p>\r\n<p>Identifies anomalies or missing fields</p>\r\n<p>\u00a0</p>\r\n<p>3. Email Parser Agent</p>\r\n<p>Accepts email body text (plain or HTML)</p>\r\n<p>Extracts sender name, request intent, urgency</p>\r\n<p>Returns formatted CRM-style record</p>\r\n<p>Stores conversation ID + parsed metadata in memory</p>\r\n<p>\u00a0</p>\r\n<p>Shared Memory Module (Lightweight)</p>\r\n<p>Should store:</p>\r\n<p>Input metadata (source, type, timestamp)</p>\r\n<p>Extracted fields per agent</p>\r\n<p>Thread/conversation ID if available</p>\r\n<p>You can use Redis, SQLite, or in-memory store</p>\r\n<p>\u00a0</p>\r\n<p>Memory must be readable across agents</p>\r\n<p>\u00a0</p>\r\n<p>End-to-End Flow Example</p>\r\n<p>User uploads an email body \u2192 Classifier detects \"email + RFQ intent\"</p>\r\n<p>Routed to Email Parser \u2192 Extracts sender, request, urgency</p>\r\n<p>\u00a0</p>\r\n<p>Memory stores output</p>\r\n<p>If RFQ references an attached JSON\u2192 also route to JSON agent</p>\r\n<p>Combined structured output is returned (or logged to mock CRM)</p>\r\n<p>\u00a0</p>\r\n<p>Tech Stack Recommendations</p>\r\n<p>Python (Langchain / FastAPI preferred)</p>\r\n<p>LLMs (OpenAI, Gemini, or open-source)</p>\r\n<p>Memory: Redis / SQLite / JSON memory class</p>\r\n<p>Docker (optional, bonus)</p>\r\n<p>\u00a0</p>\r\n<p>Submission Requirements</p>\r\n<p><strong>Working Video is a must</strong></p>\r\n<p>GitHub repo with:</p>\r\n<p>README.md</p>\r\n<p>Sample input files (PDFs, JSONs, emails)</p>\r\n<p>Folder structure: /agents, /mcp, /memory, /data, /utils</p>\r\n<p>Sample output logs or screenshots</p>\r\n<p><br /><br />All the Best!<br /><br />Regards,<br />Flowbit Private Limited Team</p>\r\n                        </div>\r\n\r\n                        <div style=\"padding-top:20px; text-align:center;\">\r\n                            <a href=\"https://unstop.com/internships/ai-agent-development-internship-flowbit-private-limited-1482335\" target=\"_blank\" style=\"display: inline-block; padding: 12px 32px; background: #0073E6; border-radius: 50px; font-weight: 500; font-size: 14px; line-height: 16px; color: #FFFFFF; cursor: pointer; box-sizing: border-box;\">\r\n                                View Opportunity\r\n                            </a>\r\n                        </div>\r\n                    </td>\r\n                </tr>\r\n            </tbody>\r\n        </table>\r\n\r\n        \r\n        <style>\r\n\t.footer_sect a:hover {\r\n\t\topacity: .8;\r\n\t}\r\n\t@media (max-width: 600px) {\r\n\t\t.full {\r\n\t\t\twidth: 100% !important;\r\n\t\t}\r\n\t\t.footer_ui {\r\n\t\t\tborder-radius: 8px;\r\n\t\t}\r\n\t\t.footer_ui .footer_pdng {\r\n\t\t\tpadding-left: 16px !important;\r\n\t\t\tpadding-right: 16px !important;\r\n\t\t}\r\n\t\t.footer_ui .un_logo {\r\n\t\t\twidth: 100px !important; \r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" width=\"700\" class=\"full footer_ui\" style=\"background: #f2f2f2;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td class=\"footer_pdng\" style=\"padding: 24px 30px;\">\r\n\t\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" style=\"width: 100%;\">\r\n\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"border-bottom: 1px solid #DEDEDE; padding-bottom: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\thref=\"https://unstop.com/pro\"\r\n\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none;\"\r\n\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66434fd4a4152_unstop_logo.png\"\r\n\t\t\t\t\t\t\t\t\t\talt=\"Unstop pro logo\" style=\"display: block; width: 120px;\"\r\n\t\t\t\t\t\t\t\t\t\tclass=\"un_logo\"\r\n\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<p\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; color: #1c1c1c; font-size: 12px; font-weight: 500; margin: 0 0 10px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t\tJoin our evergrowing unstoppable community\r\n\t\t\t\t\t\t\t\t</p>\r\n\r\n\t\t\t\t\t\t\t\t<div style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/unstop.world/\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433aee6e146_instagram.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Instagram Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/unstop/\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433aff63c9b_linkedin.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Linkedin Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://t.me/+ON15qceSy-IyZjY9\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433b096c58b_telegram.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Telegram Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\t\thref=\"https://www.youtube.com/c/Unstop_World\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\" \r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\r\n\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433b12a37a3_youtube.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Youtube Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<p style=\"font-family: 'Inter', sans-serif; color: #1c1c1c; font-size: 12px; font-weight: 500; margin: 0 0 10px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t\tGet the Unstop app\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t<div>\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://play.google.com/store/apps/details?id=com.dare2compete.app\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/6641f370d8dc5_google_play.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Play Store Icon\"\r\n\t\t\t\t\t\t\t\t\t\t\tstyle=\"display: block; width: 120px; border: 1px solid #1c1c1c !important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://apps.apple.com/in/app/unstop-formerly-dare2compete/id1601170365\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none;\" target=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/6641f38f1c761_app_store.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"App Store Icon\"\r\n\t\t\t\t\t\t\t\t\t\t\tstyle=\"display: block; width: 120px; border: 1px solid #1c1c1c !important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500; border-right: 1px solid #D9D9D9; padding-right: 12px; margin-right: 12px;\">\r\n\t\t\t\t\t\t\t\t\tQueries? We're just one email away: <a href=\"mailto:support@unstop.com\" class=\"h_text_color\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; color: #1c1c1c; text-decoration: none;\">support@unstop.com</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\r\n\t\t\t\t\t\t\t\t<span style=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500;\">\r\n\t\t\t\t\t\t\t\t\t\u00a9 2025 <a class=\"h_text_color\" href=\"https://unstop.com/\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; color: #1c1c1c; text-decoration: none;\">Unstop</a>.\r\n\t\t\t\t\t\t\t\t\tAll rights reserved\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</tbody>\r\n\t\t\t\t</table>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>    </div>\r\n</body>\r\n\r\n</html>",
+              "key_points": [
+                "important;\r\n            -ms-text-size-adjust: 100%",
+                "important;\r\n            -webkit-font-smoothing: antialiased;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        h1,\r\n        h2,\r\n        h3,\r\n        h4,\r\n        h5,\r\n        h6,\r\n        p,\r\n        span,\r\n        a,\r\n        strong,\r\n        div,\r\n        td {\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        img {\r\n            border: 0",
+                "important;\r\n            outline: none",
+                "important;\r\n            display: block;\r\n        }\r\n\r\n        a {\r\n            text-decoration: none;\r\n            color: #0073e6;\r\n        }",
+                "important;\r\n            text-decoration: underline",
+                "important;\r\n        }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                padding-right: 0",
+                "important;\r\n                text-align: center;\r\n                width: 100%;\r\n                display: block;\r\n                margin-bottom: 15px;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                margin-bottom: 10px",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 22px",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 19px",
+                "important;\r\n                margin-top: 15px",
+                "important;\r\n            }",
+                "important;\r\n                padding-bottom: 15px",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                height: 100px",
+                "important;\r\n            }",
+                "important;\r\n                padding-right: 0",
+                "important;\r\n            }",
+                "important;\r\n                font-size: 16px",
+                "important;\r\n                line-height: 20px",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 21px",
+                "important;\r\n            }",
+                "important;\r\n            }\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n    <div style=\"background-color: #ffffff; width: 100%; margin: 0; padding: 0;\">\r\n        <style>\r\n \t@media (max-width: 600px) {",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t\tline-height: 24px",
+                "important;\r\n\t\t\tpadding-top: 12px",
+                "important;\r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table \r\n\tcellpadding=\"0\" \r\n\tcellspacing=\"0\" \r\n\talign=\"center\" \r\n\tborder=\"0\" \r\n\twidth=\"700\" \r\n\tclass=\"full hedr_higt_1 br0\" \r\n\tstyle=\"\r\n\t\tbackground: #eaf4fe;\r\n\t\tbackground-image: url(https://d8it4huxumps7",
+                "important;\r\n\t\t\t\t\t\t\t\t\t\t\t\toutline: none",
+                "important;\r\n\t\t\t\t\t\t\t\t\t\t\t\tdisplay: block;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-height: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-width: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmargin: auto;\r\n\t\t\t\t\t\t\t\t\t\t\t\" \r\n\t\t\t\t\t\t\t\t\t\t\twidth=\"55\"\r\n\t\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\tclass=\"h1\" \r\n\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\tfont-family: 'Inter', sans-serif;\r\n\t\t\t\t\t\t\t\t\t\tcolor: #1c1c1c;\r\n\t\t\t\t\t\t\t\t\t\tfont-size: 28px;\r\n\t\t\t\t\t\t\t\t\t\tline-height: 36px;\r\n\t\t\t\t\t\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\t\t\t\t\t\tpadding-top: 20px;\r\n\t\t\t\t\t\t\t\t\t\ttext-align: center;\r\n\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\tAI Agent Development Internship\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</a>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n        <table\r\n            cellpadding=\"0\"\r\n            cellspacing=\"0\"\r\n            align=\"center\"\r\n            bgcolor=\"#ffffff\"\r\n            border=\"0\"\r\n            width=\"700\"\r\n            class=\"full\"\r\n        >\r\n            <tbody>\r\n                <tr>\r\n                    <td class=\"pdng\" style=\"padding: 40px 30px; text-align: left;\">\r\n                        <p style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0 0 15px; line-height: 20px; font-weight: 400;\">\r\n                            Hi <strong>Varshith Reddy</strong>,\r\n                        </p>\r\n\r\n                        <div class=\"text_box\" style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0; line-height: 22px; font-weight: 400;\">\r\n                            <p>Thank you for your interest in the role of <strong style=\"font-weight: bold;\">'AI Agent Development Internship'</strong>",
+                "Email Parser Agent</p>\r\n<p>Accepts email body text (plain or HTML)</p>\r\n<p>Extracts sender name, request intent, urgency</p>\r\n<p>Returns formatted CRM-style record</p>\r\n<p>Stores conversation ID + parsed metadata in memory</p>\r\n<p>\u00a0</p>\r\n<p>Shared Memory Module (Lightweight)</p>\r\n<p>Should store:</p>\r\n<p>Input metadata (source, type, timestamp)</p>\r\n<p>Extracted fields per agent</p>\r\n<p>Thread/conversation ID if available</p>\r\n<p>You can use Redis, SQLite, or in-memory store</p>\r\n<p>\u00a0</p>\r\n<p>Memory must be readable across agents</p>\r\n<p>\u00a0</p>\r\n<p>End-to-End Flow Example</p>\r\n<p>User uploads an email body \u2192 Classifier detects \"email + RFQ intent\"</p>\r\n<p>Routed to Email Parser \u2192 Extracts sender, request, urgency</p>\r\n<p>\u00a0</p>\r\n<p>Memory stores output</p>\r\n<p>If RFQ references an attached JSON\u2192 also route to JSON agent</p>\r\n<p>Combined structured output is returned (or logged to mock CRM)</p>\r\n<p>\u00a0</p>\r\n<p>Tech Stack Recommendations</p>\r\n<p>Python (Langchain / FastAPI preferred)</p>\r\n<p>LLMs (OpenAI, Gemini, or open-source)</p>\r\n<p>Memory: Redis / SQLite / JSON memory class</p>\r\n<p>Docker (optional, bonus)</p>\r\n<p>\u00a0</p>\r\n<p>Submission Requirements</p>\r\n<p><strong>Working Video is a must</strong></p>\r\n<p>GitHub repo with:</p>\r\n<p>README",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t\tpadding-right: 16px",
+                "important;\r\n\t\t}",
+                "important; \r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" width=\"700\" class=\"full footer_ui\" style=\"background: #f2f2f2;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td class=\"footer_pdng\" style=\"padding: 24px 30px;\">\r\n\t\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" style=\"width: 100%;\">\r\n\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"border-bottom: 1px solid #DEDEDE; padding-bottom: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\thref=\"https://unstop",
+                "important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://apps",
+                "important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500; border-right: 1px solid #D9D9D9; padding-right: 12px; margin-right: 12px;\">\r\n\t\t\t\t\t\t\t\t\tQueries"
+              ],
+              "action_items": []
+            },
+            "processed_at": "2025-05-29T23:02:30.788060"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-29T23:02:30.770233",
+    "last_updated": "2025-05-29T23:02:30.788094"
+  },
+  "aedcd9ae-02f9-4b03-93a4-f1d366a92504": {
+    "metadata": {
+      "filename": "memory_store.json",
+      "content_type": "application/json",
+      "description": ""
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-29T23:03:26.826767",
+        "agent_output": {
+          "classification": {
+            "format": "json",
+            "intent": "regulation",
+            "confidence": 0.85
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-29T23:03:26.830381",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "data": {
+              "metadata": {
+                "intent": "regulation",
+                "source": "json_agent",
+                "version": "1.0"
+              },
+              "content": {}
+            },
+            "missing_fields": [
+              "policy_id",
+              "effective_date",
+              "requirements"
+            ],
+            "anomalies": [],
+            "processed_at": "2025-05-29T23:03:26.830347"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-29T23:03:26.819662",
+    "last_updated": "2025-05-29T23:03:26.830384"
+  },
+  "fea9ee77-4d99-4586-af50-69a47a7bd2ed": {
+    "metadata": {
+      "filename": "varsh ai.pdf",
+      "content_type": "application/pdf",
+      "description": "",
+      "size": 75822,
+      "upload_time": "2025-05-30T20:27:24.252711"
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-30T20:27:24.266803",
+        "agent_output": {
+          "classification": {
+            "format": "pdf",
+            "intent": "complaint",
+            "confidence": 0.1875,
+            "matches": [],
+            "metadata": {
+              "size": 75822,
+              "timestamp": "2025-05-30T20:27:24.265698",
+              "format_details": {
+                "pages": 1,
+                "metadata": {
+                  "/Author": "",
+                  "/CreationDate": "D:20250529172149Z",
+                  "/Creator": "LaTeX with hyperref",
+                  "/Keywords": "",
+                  "/ModDate": "D:20250529172149Z",
+                  "/PTEX.Fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5",
+                  "/Producer": "pdfTeX-1.40.25",
+                  "/Subject": "",
+                  "/Title": "",
+                  "/Trapped": "/False"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T20:27:24.290196",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "data": {
+              "type": "policy",
+              "compliance_flags": [],
+              "key_sections": [],
+              "metadata": {
+                "pages": 1,
+                "size": 75822
+              }
+            },
+            "processed_at": "2025-05-30T20:27:24.290188"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T20:27:24.292250",
+        "agent_output": {
+          "actions": {
+            "success": true,
+            "actions": [],
+            "timestamp": "2025-05-30T20:27:24.292243"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-30T20:27:24.252746",
+    "last_updated": "2025-05-30T20:27:24.292251"
+  },
+  "9deeda3a-5773-473b-a88b-f7e8dd69876d": {
+    "metadata": {
+      "filename": "varsh ai.pdf",
+      "content_type": "application/pdf",
+      "description": "",
+      "size": 75822,
+      "upload_time": "2025-05-30T20:32:39.865404"
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-30T20:32:39.895188",
+        "agent_output": {
+          "classification": {
+            "format": "pdf",
+            "intent": "complaint",
+            "confidence": 0.1875,
+            "matches": [],
+            "metadata": {
+              "size": 75822,
+              "timestamp": "2025-05-30T20:32:39.893145",
+              "format_details": {
+                "pages": 1,
+                "metadata": {
+                  "/Author": "",
+                  "/CreationDate": "D:20250529172149Z",
+                  "/Creator": "LaTeX with hyperref",
+                  "/Keywords": "",
+                  "/ModDate": "D:20250529172149Z",
+                  "/PTEX.Fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5",
+                  "/Producer": "pdfTeX-1.40.25",
+                  "/Subject": "",
+                  "/Title": "",
+                  "/Trapped": "/False"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T20:32:39.922683",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "data": {
+              "type": "policy",
+              "compliance_flags": [],
+              "key_sections": [],
+              "metadata": {
+                "pages": 1,
+                "size": 75822
+              }
+            },
+            "processed_at": "2025-05-30T20:32:39.922664"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T20:32:39.927522",
+        "agent_output": {
+          "actions": {
+            "success": true,
+            "actions": [],
+            "timestamp": "2025-05-30T20:32:39.927507"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-30T20:32:39.865415",
+    "last_updated": "2025-05-30T20:32:39.927526"
+  },
+  "6779aafa-87de-4458-b290-8095dbcb0f8f": {
+    "metadata": {
+      "filename": "Your application has been accepted for the role of AI Agent Development Internship!.eml",
+      "content_type": "message/rfc822",
+      "description": "",
+      "size": 66917,
+      "upload_time": "2025-05-30T20:32:51.141244"
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-30T20:32:51.147683",
+        "agent_output": {
+          "classification": {
+            "format": "email",
+            "intent": "rfq",
+            "confidence": 0.3225806451612903,
+            "matches": [
+              "quote",
+              "rfq"
+            ],
+            "metadata": {
+              "size": 66917,
+              "timestamp": "2025-05-30T20:32:51.147457",
+              "format_details": {}
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T20:32:51.154295",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "metadata": {
+              "sender": {
+                "name": "Unstop Events",
+                "email": "updates@unstop.events"
+              },
+              "subject": "Your application has been accepted for the role of AI Agent\r\n Development Internship!",
+              "timestamp": "Wed, 28 May 2025 10:00:49 +0000",
+              "urgency": "medium"
+            },
+            "content": {
+              "intent": "complaint",
+              "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <title>General</title>\r\n    <meta name=\"author\" content=\"\" content=\"\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <meta name=\"x-apple-disable-message-reformatting\">\r\n    <style type=\"text/css\">\r\n        @import  url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');\r\n\r\n        body {\r\n            width: auto;\r\n            background-color: #F6F8FA;\r\n            margin: 0 auto;\r\n            padding: 0;\r\n            font-size: 14px;\r\n            -webkit-text-size-adjust: 100% !important;\r\n            -ms-text-size-adjust: 100% !important;\r\n            -webkit-font-smoothing: antialiased;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        h1,\r\n        h2,\r\n        h3,\r\n        h4,\r\n        h5,\r\n        h6,\r\n        p,\r\n        span,\r\n        a,\r\n        strong,\r\n        div,\r\n        td {\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        img {\r\n            border: 0 !important;\r\n            outline: none !important;\r\n            display: block;\r\n        }\r\n\r\n        a {\r\n            text-decoration: none;\r\n            color: #0073e6;\r\n        }\r\n        .h_text_color:hover {\r\n            color: #0073e6 !important;\r\n            text-decoration: underline !important;\r\n        }\r\n        .footer_sect a:hover {\r\n            opacity: .8;\r\n        }\r\n\r\n        table {\r\n            border-collapse: collapse;\r\n            mso-table-lspace: 0px;\r\n            mso-table-rspace: 0px;\r\n        }\r\n\r\n        .text_box {\r\n            font-size: 15px;\r\n            color: #434343;\r\n            line-height: 22px;\r\n            font-weight: 400;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        .text_box p {\r\n            font-size: 15px;\r\n            color: #434343;\r\n            margin: 0 0 15px;\r\n            line-height: 22px;\r\n            font-weight: 400;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box strong {\r\n            font-weight: 700;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box ul,\r\n        .text_box ol {\r\n            margin: 10px 0 15px;\r\n            padding: 0;\r\n            padding-left: 30px;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box ul li,\r\n        .text_box ol li {\r\n            font-size: 15px;\r\n            color: #434343;\r\n            margin: 0 0 10px;\r\n            line-height: 20px;\r\n            font-weight: 400;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box a {\r\n            color: #0073e6;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        .text_box p img {\r\n            display: inline-block;\r\n        }\r\n\r\n        @media (max-width: 600px) {\r\n            .full {\r\n                width: 100% !important;\r\n            }\r\n            .pdng {\r\n                padding: 20px 15px !important;\r\n            }\r\n\r\n            .footer_sect {\r\n                display: block;\r\n            }\r\n            .footer_sect .follow {\r\n                border-right: 0 !important;\r\n                padding-right: 0 !important;\r\n                text-align: center;\r\n                width: 100%;\r\n                display: block;\r\n                margin-bottom: 15px;\r\n            }\r\n            .footer_store {\r\n                width: 100%;\r\n                text-align: center;\r\n                display: block;\r\n            }\r\n            .footer_store .coin {\r\n                padding-left: 0 !important;\r\n            }\r\n            .footer_sect p {\r\n                font-size: 13px !important;\r\n                margin-bottom: 10px !important;\r\n            }\r\n            .footer_sect img {\r\n                width: 35px !important;\r\n            }\r\n            .disclaimer {\r\n                padding: 20px 15px 0px !important;\r\n            }\r\n            .queries p,\r\n            .disclaimer p {\r\n                font-size: 13px !important;\r\n            }\r\n            .queries p br {\r\n                display: none;\r\n            }\r\n            .queries .copyright {\r\n                margin-top: 5px !important;\r\n            }\r\n            .title {\r\n                font-size: 16px !important;\r\n                line-height: 22px !important;\r\n            }\r\n            .sub_title {\r\n                font-size: 14px !important;\r\n                line-height: 19px !important;\r\n                margin-top: 15px !important;\r\n            }\r\n            .opp_list {\r\n                display: block;\r\n            }\r\n            .opp_list td {\r\n                display: block;\r\n                width: 100% !important;\r\n                padding-bottom: 15px !important;\r\n            }\r\n            .view_more {\r\n                margin-top: 0 !important;\r\n            }\r\n\r\n            .hedr_bg {\r\n                padding: 10px 15px 20px !important;\r\n            }\r\n            .logo_box {\r\n                width: 100px !important;\r\n            }\r\n            .logo_box div {\r\n                width: 100px !important;\r\n                height: 100px !important;\r\n            }\r\n            .cptn_box {\r\n                padding-left: 15px !important;\r\n                padding-right: 0 !important;\r\n            }\r\n            .cptn_box h2 {\r\n                margin: 0px 0 5px !important;\r\n                font-size: 16px !important;\r\n                line-height: 20px !important;\r\n            }\r\n            .cptn_box p {\r\n                font-size: 15px !important;\r\n                line-height: 21px !important;\r\n            }\r\n            .unstop_icon {\r\n                margin-bottom: 15px;\r\n            }\r\n            .unstop_icon img {\r\n                width: 75px !important;\r\n            }\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n    <div style=\"background-color: #ffffff; width: 100%; margin: 0; padding: 0;\">\r\n        <style>\r\n \t@media (max-width: 600px) {\r\n\t\t.full {\r\n\t\t\twidth: 100% !important;\r\n\t\t}\r\n\t\t.pdng {\r\n\t\t\tpadding: 30px 16px !important;\r\n\t\t}\r\n\t\t.hedr_higt_1 {\r\n\t\t\tmin-height: 196px !important;\r\n\t\t}\r\n\t\t.header {\r\n\t\t\tpadding: 30px 16px !important;\r\n\t\t}\r\n\r\n\t\t.header .logo {\r\n\t\t\theight: 70px !important;\r\n\t\t}\r\n\r\n\t\t.header .h1 {\r\n\t\t\tfont-size: 20px !important;\r\n\t\t\tline-height: 24px !important;\r\n\t\t\tpadding-top: 12px !important;\r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table \r\n\tcellpadding=\"0\" \r\n\tcellspacing=\"0\" \r\n\talign=\"center\" \r\n\tborder=\"0\" \r\n\twidth=\"700\" \r\n\tclass=\"full hedr_higt_1 br0\" \r\n\tstyle=\"\r\n\t\tbackground: #eaf4fe;\r\n\t\tbackground-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/6643444858bad_top_vector.png);\r\n\t\tbackground-size: 98%;\r\n\t\tbackground-position: top right;\r\n\t\tbackground-repeat: no-repeat;\r\n\t\tmin-height: 242px;\r\n\t\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td \r\n\t\t\t\tclass=\"header\" \r\n\t\t\t\tstyle=\"\r\n\t\t\t\t\tpadding: 42px 50px;\r\n\t\t\t\t\tbackground-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/6643445d4d288_bottom_vector.png);\r\n\t\t\t\t\tbackground-size: 98%;\r\n\t\t\t\t\tbackground-position: bottom left;\r\n\t\t\t\t\tbackground-repeat: no-repeat;\r\n\t\t\t\t\"\r\n\t\t\t>\r\n\t\t\t\t<a href=\"https://unstop.com/internships/ai-agent-development-internship-flowbit-private-limited-1482335\" target=\"_blank\" style=\"display: block; color:inherit; text-decoration: none;\">\r\n\t\t\t\t\t<table style=\"width: 100%;\">\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<div style=\"display: inline-block;\">\r\n\t\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\t\tclass=\"logo\" \r\n\t\t\t\t\t\t\t\t\t\twidth=\"70\" \r\n\t\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\t\twidth: 70px;\r\n\t\t\t\t\t\t\t\t\t\t\tmin-width:70px;\r\n\t\t\t\t\t\t\t\t\t\t\theight: 70px;\r\n\t\t\t\t\t\t\t\t\t\t\tbackground: #fff;\r\n\t\t\t\t\t\t\t\t\t\t\tborder-radius: 8px;\r\n\t\t\t\t\t\t\t\t\t\t\tbackground-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/un-emails/white-bg.png);\r\n\t\t\t\t\t\t\t\t\t\t\tbackground-size: cover;\r\n\t\t\t\t\t\t\t\t\t\t\tvertical-align: middle;\r\n\t\t\t\t\t\t\t\t\t\t\tbox-sizing: border-box;\r\n\t\t\t\t\t\t\t\t\t\t\tdisplay: table-cell;\r\n\t\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t\t<img \r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/75x75/682cd575a078e_organisation_image-XVrJJRNugU17095072931U5NYrJLLu.png\" \r\n\t\t\t\t\t\t\t\t\t\t\talt=\"\" \r\n\t\t\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\t\t\tbox-sizing: border-box;\r\n\t\t\t\t\t\t\t\t\t\t\t\tborder: 0!important;\r\n\t\t\t\t\t\t\t\t\t\t\t\toutline: none!important;\r\n\t\t\t\t\t\t\t\t\t\t\t\tdisplay: block;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-height: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-width: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmargin: auto;\r\n\t\t\t\t\t\t\t\t\t\t\t\" \r\n\t\t\t\t\t\t\t\t\t\t\twidth=\"55\"\r\n\t\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\tclass=\"h1\" \r\n\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\tfont-family: 'Inter', sans-serif;\r\n\t\t\t\t\t\t\t\t\t\tcolor: #1c1c1c;\r\n\t\t\t\t\t\t\t\t\t\tfont-size: 28px;\r\n\t\t\t\t\t\t\t\t\t\tline-height: 36px;\r\n\t\t\t\t\t\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\t\t\t\t\t\tpadding-top: 20px;\r\n\t\t\t\t\t\t\t\t\t\ttext-align: center;\r\n\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\tAI Agent Development Internship\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</a>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n        <table\r\n            cellpadding=\"0\"\r\n            cellspacing=\"0\"\r\n            align=\"center\"\r\n            bgcolor=\"#ffffff\"\r\n            border=\"0\"\r\n            width=\"700\"\r\n            class=\"full\"\r\n        >\r\n            <tbody>\r\n                <tr>\r\n                    <td class=\"pdng\" style=\"padding: 40px 30px; text-align: left;\">\r\n                        <p style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0 0 15px; line-height: 20px; font-weight: 400;\">\r\n                            Hi <strong>Varshith Reddy</strong>,\r\n                        </p>\r\n\r\n                        <div class=\"text_box\" style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0; line-height: 22px; font-weight: 400;\">\r\n                            <p>Thank you for your interest in the role of <strong style=\"font-weight: bold;\">'AI Agent Development Internship'</strong>! <br /><br />As part of your next round of Interview.\u00a0<br /><br />For more updates about the company make sure to follow the company page on Linkedin. <a href=\"https://www.linkedin.com/company/flowbit-ai/\">Flowbit AI</a><br /><br /></p>\r\n<p data-pm-slice=\"1 1 []\">Multi-Format Intake Agent with Intelligent Routing & Context Memory\u201d</p>\r\n<p>Objective</p>\r\n<p>Build a multi-agent AI system that can accept data in PDF, JSON, or Email (text) format, intelligently classify the input type and purpose, and then route it to the right specialized agent for extraction. The system should maintain context (e.g., sender, topic, last extracted fields) to support downstream chaining or audits.</p>\r\n<p>\u00a0</p>\r\n<p>System Overview</p>\r\n<p>You are to build 3 core agents, all orchestrated through a central Classifier Agent:</p>\r\n<p>\u00a0</p>\r\n<p>1. Classifier Agent</p>\r\n<p>Receives raw input (file/email/JSON body)</p>\r\n<p>Classifies:</p>\r\n<p>Format: PDF / JSON / Email</p>\r\n<p>Intent: Invoice, RFQ, Complaint, Regulation, etc.</p>\r\n<p>Routes to the appropriate extraction agent</p>\r\n<p>Adds format + intent to shared memory</p>\r\n<p>\u00a0</p>\r\n<p>2. JSON Agent</p>\r\n<p>Accepts arbitrary JSON (e.g., webhook payloads, APIs)</p>\r\n<p>Extracts and re-formats data to a defined FlowBit schema</p>\r\n<p>Identifies anomalies or missing fields</p>\r\n<p>\u00a0</p>\r\n<p>3. Email Parser Agent</p>\r\n<p>Accepts email body text (plain or HTML)</p>\r\n<p>Extracts sender name, request intent, urgency</p>\r\n<p>Returns formatted CRM-style record</p>\r\n<p>Stores conversation ID + parsed metadata in memory</p>\r\n<p>\u00a0</p>\r\n<p>Shared Memory Module (Lightweight)</p>\r\n<p>Should store:</p>\r\n<p>Input metadata (source, type, timestamp)</p>\r\n<p>Extracted fields per agent</p>\r\n<p>Thread/conversation ID if available</p>\r\n<p>You can use Redis, SQLite, or in-memory store</p>\r\n<p>\u00a0</p>\r\n<p>Memory must be readable across agents</p>\r\n<p>\u00a0</p>\r\n<p>End-to-End Flow Example</p>\r\n<p>User uploads an email body \u2192 Classifier detects \"email + RFQ intent\"</p>\r\n<p>Routed to Email Parser \u2192 Extracts sender, request, urgency</p>\r\n<p>\u00a0</p>\r\n<p>Memory stores output</p>\r\n<p>If RFQ references an attached JSON\u2192 also route to JSON agent</p>\r\n<p>Combined structured output is returned (or logged to mock CRM)</p>\r\n<p>\u00a0</p>\r\n<p>Tech Stack Recommendations</p>\r\n<p>Python (Langchain / FastAPI preferred)</p>\r\n<p>LLMs (OpenAI, Gemini, or open-source)</p>\r\n<p>Memory: Redis / SQLite / JSON memory class</p>\r\n<p>Docker (optional, bonus)</p>\r\n<p>\u00a0</p>\r\n<p>Submission Requirements</p>\r\n<p><strong>Working Video is a must</strong></p>\r\n<p>GitHub repo with:</p>\r\n<p>README.md</p>\r\n<p>Sample input files (PDFs, JSONs, emails)</p>\r\n<p>Folder structure: /agents, /mcp, /memory, /data, /utils</p>\r\n<p>Sample output logs or screenshots</p>\r\n<p><br /><br />All the Best!<br /><br />Regards,<br />Flowbit Private Limited Team</p>\r\n                        </div>\r\n\r\n                        <div style=\"padding-top:20px; text-align:center;\">\r\n                            <a href=\"https://unstop.com/internships/ai-agent-development-internship-flowbit-private-limited-1482335\" target=\"_blank\" style=\"display: inline-block; padding: 12px 32px; background: #0073E6; border-radius: 50px; font-weight: 500; font-size: 14px; line-height: 16px; color: #FFFFFF; cursor: pointer; box-sizing: border-box;\">\r\n                                View Opportunity\r\n                            </a>\r\n                        </div>\r\n                    </td>\r\n                </tr>\r\n            </tbody>\r\n        </table>\r\n\r\n        \r\n        <style>\r\n\t.footer_sect a:hover {\r\n\t\topacity: .8;\r\n\t}\r\n\t@media (max-width: 600px) {\r\n\t\t.full {\r\n\t\t\twidth: 100% !important;\r\n\t\t}\r\n\t\t.footer_ui {\r\n\t\t\tborder-radius: 8px;\r\n\t\t}\r\n\t\t.footer_ui .footer_pdng {\r\n\t\t\tpadding-left: 16px !important;\r\n\t\t\tpadding-right: 16px !important;\r\n\t\t}\r\n\t\t.footer_ui .un_logo {\r\n\t\t\twidth: 100px !important; \r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" width=\"700\" class=\"full footer_ui\" style=\"background: #f2f2f2;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td class=\"footer_pdng\" style=\"padding: 24px 30px;\">\r\n\t\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" style=\"width: 100%;\">\r\n\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"border-bottom: 1px solid #DEDEDE; padding-bottom: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\thref=\"https://unstop.com/pro\"\r\n\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none;\"\r\n\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66434fd4a4152_unstop_logo.png\"\r\n\t\t\t\t\t\t\t\t\t\talt=\"Unstop pro logo\" style=\"display: block; width: 120px;\"\r\n\t\t\t\t\t\t\t\t\t\tclass=\"un_logo\"\r\n\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<p\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; color: #1c1c1c; font-size: 12px; font-weight: 500; margin: 0 0 10px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t\tJoin our evergrowing unstoppable community\r\n\t\t\t\t\t\t\t\t</p>\r\n\r\n\t\t\t\t\t\t\t\t<div style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/unstop.world/\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433aee6e146_instagram.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Instagram Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/unstop/\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433aff63c9b_linkedin.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Linkedin Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://t.me/+ON15qceSy-IyZjY9\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433b096c58b_telegram.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Telegram Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\t\thref=\"https://www.youtube.com/c/Unstop_World\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\" \r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\r\n\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433b12a37a3_youtube.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Youtube Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<p style=\"font-family: 'Inter', sans-serif; color: #1c1c1c; font-size: 12px; font-weight: 500; margin: 0 0 10px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t\tGet the Unstop app\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t<div>\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://play.google.com/store/apps/details?id=com.dare2compete.app\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/6641f370d8dc5_google_play.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Play Store Icon\"\r\n\t\t\t\t\t\t\t\t\t\t\tstyle=\"display: block; width: 120px; border: 1px solid #1c1c1c !important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://apps.apple.com/in/app/unstop-formerly-dare2compete/id1601170365\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none;\" target=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/6641f38f1c761_app_store.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"App Store Icon\"\r\n\t\t\t\t\t\t\t\t\t\t\tstyle=\"display: block; width: 120px; border: 1px solid #1c1c1c !important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500; border-right: 1px solid #D9D9D9; padding-right: 12px; margin-right: 12px;\">\r\n\t\t\t\t\t\t\t\t\tQueries? We're just one email away: <a href=\"mailto:support@unstop.com\" class=\"h_text_color\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; color: #1c1c1c; text-decoration: none;\">support@unstop.com</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\r\n\t\t\t\t\t\t\t\t<span style=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500;\">\r\n\t\t\t\t\t\t\t\t\t\u00a9 2025 <a class=\"h_text_color\" href=\"https://unstop.com/\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; color: #1c1c1c; text-decoration: none;\">Unstop</a>.\r\n\t\t\t\t\t\t\t\t\tAll rights reserved\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</tbody>\r\n\t\t\t\t</table>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>    </div>\r\n</body>\r\n\r\n</html>",
+              "key_points": [
+                "important;\r\n            -ms-text-size-adjust: 100%",
+                "important;\r\n            -webkit-font-smoothing: antialiased;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        h1,\r\n        h2,\r\n        h3,\r\n        h4,\r\n        h5,\r\n        h6,\r\n        p,\r\n        span,\r\n        a,\r\n        strong,\r\n        div,\r\n        td {\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        img {\r\n            border: 0",
+                "important;\r\n            outline: none",
+                "important;\r\n            display: block;\r\n        }\r\n\r\n        a {\r\n            text-decoration: none;\r\n            color: #0073e6;\r\n        }",
+                "important;\r\n            text-decoration: underline",
+                "important;\r\n        }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                padding-right: 0",
+                "important;\r\n                text-align: center;\r\n                width: 100%;\r\n                display: block;\r\n                margin-bottom: 15px;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                margin-bottom: 10px",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 22px",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 19px",
+                "important;\r\n                margin-top: 15px",
+                "important;\r\n            }",
+                "important;\r\n                padding-bottom: 15px",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                height: 100px",
+                "important;\r\n            }",
+                "important;\r\n                padding-right: 0",
+                "important;\r\n            }",
+                "important;\r\n                font-size: 16px",
+                "important;\r\n                line-height: 20px",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 21px",
+                "important;\r\n            }",
+                "important;\r\n            }\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n    <div style=\"background-color: #ffffff; width: 100%; margin: 0; padding: 0;\">\r\n        <style>\r\n \t@media (max-width: 600px) {",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t\tline-height: 24px",
+                "important;\r\n\t\t\tpadding-top: 12px",
+                "important;\r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table \r\n\tcellpadding=\"0\" \r\n\tcellspacing=\"0\" \r\n\talign=\"center\" \r\n\tborder=\"0\" \r\n\twidth=\"700\" \r\n\tclass=\"full hedr_higt_1 br0\" \r\n\tstyle=\"\r\n\t\tbackground: #eaf4fe;\r\n\t\tbackground-image: url(https://d8it4huxumps7",
+                "important;\r\n\t\t\t\t\t\t\t\t\t\t\t\toutline: none",
+                "important;\r\n\t\t\t\t\t\t\t\t\t\t\t\tdisplay: block;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-height: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-width: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmargin: auto;\r\n\t\t\t\t\t\t\t\t\t\t\t\" \r\n\t\t\t\t\t\t\t\t\t\t\twidth=\"55\"\r\n\t\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\tclass=\"h1\" \r\n\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\tfont-family: 'Inter', sans-serif;\r\n\t\t\t\t\t\t\t\t\t\tcolor: #1c1c1c;\r\n\t\t\t\t\t\t\t\t\t\tfont-size: 28px;\r\n\t\t\t\t\t\t\t\t\t\tline-height: 36px;\r\n\t\t\t\t\t\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\t\t\t\t\t\tpadding-top: 20px;\r\n\t\t\t\t\t\t\t\t\t\ttext-align: center;\r\n\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\tAI Agent Development Internship\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</a>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n        <table\r\n            cellpadding=\"0\"\r\n            cellspacing=\"0\"\r\n            align=\"center\"\r\n            bgcolor=\"#ffffff\"\r\n            border=\"0\"\r\n            width=\"700\"\r\n            class=\"full\"\r\n        >\r\n            <tbody>\r\n                <tr>\r\n                    <td class=\"pdng\" style=\"padding: 40px 30px; text-align: left;\">\r\n                        <p style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0 0 15px; line-height: 20px; font-weight: 400;\">\r\n                            Hi <strong>Varshith Reddy</strong>,\r\n                        </p>\r\n\r\n                        <div class=\"text_box\" style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0; line-height: 22px; font-weight: 400;\">\r\n                            <p>Thank you for your interest in the role of <strong style=\"font-weight: bold;\">'AI Agent Development Internship'</strong>",
+                "Email Parser Agent</p>\r\n<p>Accepts email body text (plain or HTML)</p>\r\n<p>Extracts sender name, request intent, urgency</p>\r\n<p>Returns formatted CRM-style record</p>\r\n<p>Stores conversation ID + parsed metadata in memory</p>\r\n<p>\u00a0</p>\r\n<p>Shared Memory Module (Lightweight)</p>\r\n<p>Should store:</p>\r\n<p>Input metadata (source, type, timestamp)</p>\r\n<p>Extracted fields per agent</p>\r\n<p>Thread/conversation ID if available</p>\r\n<p>You can use Redis, SQLite, or in-memory store</p>\r\n<p>\u00a0</p>\r\n<p>Memory must be readable across agents</p>\r\n<p>\u00a0</p>\r\n<p>End-to-End Flow Example</p>\r\n<p>User uploads an email body \u2192 Classifier detects \"email + RFQ intent\"</p>\r\n<p>Routed to Email Parser \u2192 Extracts sender, request, urgency</p>\r\n<p>\u00a0</p>\r\n<p>Memory stores output</p>\r\n<p>If RFQ references an attached JSON\u2192 also route to JSON agent</p>\r\n<p>Combined structured output is returned (or logged to mock CRM)</p>\r\n<p>\u00a0</p>\r\n<p>Tech Stack Recommendations</p>\r\n<p>Python (Langchain / FastAPI preferred)</p>\r\n<p>LLMs (OpenAI, Gemini, or open-source)</p>\r\n<p>Memory: Redis / SQLite / JSON memory class</p>\r\n<p>Docker (optional, bonus)</p>\r\n<p>\u00a0</p>\r\n<p>Submission Requirements</p>\r\n<p><strong>Working Video is a must</strong></p>\r\n<p>GitHub repo with:</p>\r\n<p>README",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t\tpadding-right: 16px",
+                "important;\r\n\t\t}",
+                "important; \r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" width=\"700\" class=\"full footer_ui\" style=\"background: #f2f2f2;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td class=\"footer_pdng\" style=\"padding: 24px 30px;\">\r\n\t\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" style=\"width: 100%;\">\r\n\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"border-bottom: 1px solid #DEDEDE; padding-bottom: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\thref=\"https://unstop",
+                "important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://apps",
+                "important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500; border-right: 1px solid #D9D9D9; padding-right: 12px; margin-right: 12px;\">\r\n\t\t\t\t\t\t\t\t\tQueries"
+              ],
+              "action_items": []
+            },
+            "processed_at": "2025-05-30T20:32:51.154280"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T20:32:51.156863",
+        "agent_output": {
+          "actions": {
+            "success": true,
+            "actions": [],
+            "timestamp": "2025-05-30T20:32:51.156856"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-30T20:32:51.141250",
+    "last_updated": "2025-05-30T20:32:51.156865"
+  },
+  "2271bd8f-e754-4b0c-b2fc-4796e29aa600": {
+    "metadata": {
+      "filename": "agent project vid.mp4",
+      "content_type": "video/mp4",
+      "description": "",
+      "size": 44760066,
+      "upload_time": "2025-05-30T21:30:11.738789"
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-30T21:30:22.267565",
+        "agent_output": {
+          "classification": {
+            "format": "unknown",
+            "intent": "invoice",
+            "confidence": 0.25806451612903225,
+            "matches": [
+              "due"
+            ],
+            "metadata": {
+              "size": 44760066,
+              "timestamp": "2025-05-30T21:30:22.267540",
+              "format_details": {}
+            }
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-30T21:30:11.738828",
+    "last_updated": "2025-05-30T21:30:22.267569"
+  },
+  "43cff6c5-e4a7-4783-9141-152a28debeed": {
+    "metadata": {
+      "filename": "varsh ai.pdf",
+      "content_type": "application/pdf",
+      "description": "",
+      "size": 75822,
+      "upload_time": "2025-05-30T21:30:29.557883"
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-30T21:30:29.590042",
+        "agent_output": {
+          "classification": {
+            "format": "pdf",
+            "intent": "complaint",
+            "confidence": 0.1875,
+            "matches": [],
+            "metadata": {
+              "size": 75822,
+              "timestamp": "2025-05-30T21:30:29.587112",
+              "format_details": {
+                "pages": 1,
+                "metadata": {
+                  "/Author": "",
+                  "/CreationDate": "D:20250529172149Z",
+                  "/Creator": "LaTeX with hyperref",
+                  "/Keywords": "",
+                  "/ModDate": "D:20250529172149Z",
+                  "/PTEX.Fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5",
+                  "/Producer": "pdfTeX-1.40.25",
+                  "/Subject": "",
+                  "/Title": "",
+                  "/Trapped": "/False"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T21:30:29.643724",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "data": {
+              "type": "policy",
+              "compliance_flags": [],
+              "key_sections": [],
+              "metadata": {
+                "pages": 1,
+                "size": 75822
+              }
+            },
+            "processed_at": "2025-05-30T21:30:29.643708"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T21:30:29.657643",
+        "agent_output": {
+          "actions": {
+            "success": true,
+            "actions": [],
+            "timestamp": "2025-05-30T21:30:29.657630"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-30T21:30:29.557900",
+    "last_updated": "2025-05-30T21:30:29.657645"
+  },
+  "19894609-cfe0-4a71-8405-0c7c6cec5682": {
+    "metadata": {
+      "filename": "varsh ai.pdf",
+      "content_type": "application/pdf",
+      "description": "",
+      "size": 75822,
+      "upload_time": "2025-05-30T21:31:46.810716"
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-30T21:31:46.846312",
+        "agent_output": {
+          "classification": {
+            "format": "pdf",
+            "intent": "complaint",
+            "confidence": 0.1875,
+            "matches": [],
+            "metadata": {
+              "size": 75822,
+              "timestamp": "2025-05-30T21:31:46.842974",
+              "format_details": {
+                "pages": 1,
+                "metadata": {
+                  "/Author": "",
+                  "/CreationDate": "D:20250529172149Z",
+                  "/Creator": "LaTeX with hyperref",
+                  "/Keywords": "",
+                  "/ModDate": "D:20250529172149Z",
+                  "/PTEX.Fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) kpathsea version 6.3.5",
+                  "/Producer": "pdfTeX-1.40.25",
+                  "/Subject": "",
+                  "/Title": "",
+                  "/Trapped": "/False"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T21:31:46.914682",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "data": {
+              "type": "policy",
+              "compliance_flags": [],
+              "key_sections": [],
+              "metadata": {
+                "pages": 1,
+                "size": 75822
+              }
+            },
+            "processed_at": "2025-05-30T21:31:46.914665"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T21:31:46.924037",
+        "agent_output": {
+          "actions": {
+            "success": true,
+            "actions": [],
+            "timestamp": "2025-05-30T21:31:46.924023"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-30T21:31:46.810731",
+    "last_updated": "2025-05-30T21:31:46.924040"
+  },
+  "9374169d-36a5-4c8e-ac00-609543f2bb37": {
+    "metadata": {
+      "filename": "Your application has been accepted for the role of AI Agent Development Internship!.eml",
+      "content_type": "message/rfc822",
+      "description": "",
+      "size": 66917,
+      "upload_time": "2025-05-30T21:31:56.376034"
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-30T21:31:56.387907",
+        "agent_output": {
+          "classification": {
+            "format": "email",
+            "intent": "rfq",
+            "confidence": 0.3225806451612903,
+            "matches": [
+              "quote",
+              "rfq"
+            ],
+            "metadata": {
+              "size": 66917,
+              "timestamp": "2025-05-30T21:31:56.387590",
+              "format_details": {}
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T21:31:56.404754",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "metadata": {
+              "sender": {
+                "name": "Unstop Events",
+                "email": "updates@unstop.events"
+              },
+              "subject": "Your application has been accepted for the role of AI Agent\r\n Development Internship!",
+              "timestamp": "Wed, 28 May 2025 10:00:49 +0000",
+              "urgency": "medium"
+            },
+            "content": {
+              "intent": "complaint",
+              "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <title>General</title>\r\n    <meta name=\"author\" content=\"\" content=\"\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <meta name=\"x-apple-disable-message-reformatting\">\r\n    <style type=\"text/css\">\r\n        @import  url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');\r\n\r\n        body {\r\n            width: auto;\r\n            background-color: #F6F8FA;\r\n            margin: 0 auto;\r\n            padding: 0;\r\n            font-size: 14px;\r\n            -webkit-text-size-adjust: 100% !important;\r\n            -ms-text-size-adjust: 100% !important;\r\n            -webkit-font-smoothing: antialiased;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        h1,\r\n        h2,\r\n        h3,\r\n        h4,\r\n        h5,\r\n        h6,\r\n        p,\r\n        span,\r\n        a,\r\n        strong,\r\n        div,\r\n        td {\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        img {\r\n            border: 0 !important;\r\n            outline: none !important;\r\n            display: block;\r\n        }\r\n\r\n        a {\r\n            text-decoration: none;\r\n            color: #0073e6;\r\n        }\r\n        .h_text_color:hover {\r\n            color: #0073e6 !important;\r\n            text-decoration: underline !important;\r\n        }\r\n        .footer_sect a:hover {\r\n            opacity: .8;\r\n        }\r\n\r\n        table {\r\n            border-collapse: collapse;\r\n            mso-table-lspace: 0px;\r\n            mso-table-rspace: 0px;\r\n        }\r\n\r\n        .text_box {\r\n            font-size: 15px;\r\n            color: #434343;\r\n            line-height: 22px;\r\n            font-weight: 400;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        .text_box p {\r\n            font-size: 15px;\r\n            color: #434343;\r\n            margin: 0 0 15px;\r\n            line-height: 22px;\r\n            font-weight: 400;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box strong {\r\n            font-weight: 700;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box ul,\r\n        .text_box ol {\r\n            margin: 10px 0 15px;\r\n            padding: 0;\r\n            padding-left: 30px;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box ul li,\r\n        .text_box ol li {\r\n            font-size: 15px;\r\n            color: #434343;\r\n            margin: 0 0 10px;\r\n            line-height: 20px;\r\n            font-weight: 400;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        .text_box a {\r\n            color: #0073e6;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        .text_box p img {\r\n            display: inline-block;\r\n        }\r\n\r\n        @media (max-width: 600px) {\r\n            .full {\r\n                width: 100% !important;\r\n            }\r\n            .pdng {\r\n                padding: 20px 15px !important;\r\n            }\r\n\r\n            .footer_sect {\r\n                display: block;\r\n            }\r\n            .footer_sect .follow {\r\n                border-right: 0 !important;\r\n                padding-right: 0 !important;\r\n                text-align: center;\r\n                width: 100%;\r\n                display: block;\r\n                margin-bottom: 15px;\r\n            }\r\n            .footer_store {\r\n                width: 100%;\r\n                text-align: center;\r\n                display: block;\r\n            }\r\n            .footer_store .coin {\r\n                padding-left: 0 !important;\r\n            }\r\n            .footer_sect p {\r\n                font-size: 13px !important;\r\n                margin-bottom: 10px !important;\r\n            }\r\n            .footer_sect img {\r\n                width: 35px !important;\r\n            }\r\n            .disclaimer {\r\n                padding: 20px 15px 0px !important;\r\n            }\r\n            .queries p,\r\n            .disclaimer p {\r\n                font-size: 13px !important;\r\n            }\r\n            .queries p br {\r\n                display: none;\r\n            }\r\n            .queries .copyright {\r\n                margin-top: 5px !important;\r\n            }\r\n            .title {\r\n                font-size: 16px !important;\r\n                line-height: 22px !important;\r\n            }\r\n            .sub_title {\r\n                font-size: 14px !important;\r\n                line-height: 19px !important;\r\n                margin-top: 15px !important;\r\n            }\r\n            .opp_list {\r\n                display: block;\r\n            }\r\n            .opp_list td {\r\n                display: block;\r\n                width: 100% !important;\r\n                padding-bottom: 15px !important;\r\n            }\r\n            .view_more {\r\n                margin-top: 0 !important;\r\n            }\r\n\r\n            .hedr_bg {\r\n                padding: 10px 15px 20px !important;\r\n            }\r\n            .logo_box {\r\n                width: 100px !important;\r\n            }\r\n            .logo_box div {\r\n                width: 100px !important;\r\n                height: 100px !important;\r\n            }\r\n            .cptn_box {\r\n                padding-left: 15px !important;\r\n                padding-right: 0 !important;\r\n            }\r\n            .cptn_box h2 {\r\n                margin: 0px 0 5px !important;\r\n                font-size: 16px !important;\r\n                line-height: 20px !important;\r\n            }\r\n            .cptn_box p {\r\n                font-size: 15px !important;\r\n                line-height: 21px !important;\r\n            }\r\n            .unstop_icon {\r\n                margin-bottom: 15px;\r\n            }\r\n            .unstop_icon img {\r\n                width: 75px !important;\r\n            }\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n    <div style=\"background-color: #ffffff; width: 100%; margin: 0; padding: 0;\">\r\n        <style>\r\n \t@media (max-width: 600px) {\r\n\t\t.full {\r\n\t\t\twidth: 100% !important;\r\n\t\t}\r\n\t\t.pdng {\r\n\t\t\tpadding: 30px 16px !important;\r\n\t\t}\r\n\t\t.hedr_higt_1 {\r\n\t\t\tmin-height: 196px !important;\r\n\t\t}\r\n\t\t.header {\r\n\t\t\tpadding: 30px 16px !important;\r\n\t\t}\r\n\r\n\t\t.header .logo {\r\n\t\t\theight: 70px !important;\r\n\t\t}\r\n\r\n\t\t.header .h1 {\r\n\t\t\tfont-size: 20px !important;\r\n\t\t\tline-height: 24px !important;\r\n\t\t\tpadding-top: 12px !important;\r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table \r\n\tcellpadding=\"0\" \r\n\tcellspacing=\"0\" \r\n\talign=\"center\" \r\n\tborder=\"0\" \r\n\twidth=\"700\" \r\n\tclass=\"full hedr_higt_1 br0\" \r\n\tstyle=\"\r\n\t\tbackground: #eaf4fe;\r\n\t\tbackground-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/6643444858bad_top_vector.png);\r\n\t\tbackground-size: 98%;\r\n\t\tbackground-position: top right;\r\n\t\tbackground-repeat: no-repeat;\r\n\t\tmin-height: 242px;\r\n\t\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td \r\n\t\t\t\tclass=\"header\" \r\n\t\t\t\tstyle=\"\r\n\t\t\t\t\tpadding: 42px 50px;\r\n\t\t\t\t\tbackground-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/6643445d4d288_bottom_vector.png);\r\n\t\t\t\t\tbackground-size: 98%;\r\n\t\t\t\t\tbackground-position: bottom left;\r\n\t\t\t\t\tbackground-repeat: no-repeat;\r\n\t\t\t\t\"\r\n\t\t\t>\r\n\t\t\t\t<a href=\"https://unstop.com/internships/ai-agent-development-internship-flowbit-private-limited-1482335\" target=\"_blank\" style=\"display: block; color:inherit; text-decoration: none;\">\r\n\t\t\t\t\t<table style=\"width: 100%;\">\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t<div style=\"display: inline-block;\">\r\n\t\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\t\tclass=\"logo\" \r\n\t\t\t\t\t\t\t\t\t\twidth=\"70\" \r\n\t\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\t\twidth: 70px;\r\n\t\t\t\t\t\t\t\t\t\t\tmin-width:70px;\r\n\t\t\t\t\t\t\t\t\t\t\theight: 70px;\r\n\t\t\t\t\t\t\t\t\t\t\tbackground: #fff;\r\n\t\t\t\t\t\t\t\t\t\t\tborder-radius: 8px;\r\n\t\t\t\t\t\t\t\t\t\t\tbackground-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/un-emails/white-bg.png);\r\n\t\t\t\t\t\t\t\t\t\t\tbackground-size: cover;\r\n\t\t\t\t\t\t\t\t\t\t\tvertical-align: middle;\r\n\t\t\t\t\t\t\t\t\t\t\tbox-sizing: border-box;\r\n\t\t\t\t\t\t\t\t\t\t\tdisplay: table-cell;\r\n\t\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t\t<img \r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/75x75/682cd575a078e_organisation_image-XVrJJRNugU17095072931U5NYrJLLu.png\" \r\n\t\t\t\t\t\t\t\t\t\t\talt=\"\" \r\n\t\t\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\t\t\tbox-sizing: border-box;\r\n\t\t\t\t\t\t\t\t\t\t\t\tborder: 0!important;\r\n\t\t\t\t\t\t\t\t\t\t\t\toutline: none!important;\r\n\t\t\t\t\t\t\t\t\t\t\t\tdisplay: block;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-height: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-width: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmargin: auto;\r\n\t\t\t\t\t\t\t\t\t\t\t\" \r\n\t\t\t\t\t\t\t\t\t\t\twidth=\"55\"\r\n\t\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\tclass=\"h1\" \r\n\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\tfont-family: 'Inter', sans-serif;\r\n\t\t\t\t\t\t\t\t\t\tcolor: #1c1c1c;\r\n\t\t\t\t\t\t\t\t\t\tfont-size: 28px;\r\n\t\t\t\t\t\t\t\t\t\tline-height: 36px;\r\n\t\t\t\t\t\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\t\t\t\t\t\tpadding-top: 20px;\r\n\t\t\t\t\t\t\t\t\t\ttext-align: center;\r\n\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\tAI Agent Development Internship\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</a>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n        <table\r\n            cellpadding=\"0\"\r\n            cellspacing=\"0\"\r\n            align=\"center\"\r\n            bgcolor=\"#ffffff\"\r\n            border=\"0\"\r\n            width=\"700\"\r\n            class=\"full\"\r\n        >\r\n            <tbody>\r\n                <tr>\r\n                    <td class=\"pdng\" style=\"padding: 40px 30px; text-align: left;\">\r\n                        <p style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0 0 15px; line-height: 20px; font-weight: 400;\">\r\n                            Hi <strong>Varshith Reddy</strong>,\r\n                        </p>\r\n\r\n                        <div class=\"text_box\" style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0; line-height: 22px; font-weight: 400;\">\r\n                            <p>Thank you for your interest in the role of <strong style=\"font-weight: bold;\">'AI Agent Development Internship'</strong>! <br /><br />As part of your next round of Interview.\u00a0<br /><br />For more updates about the company make sure to follow the company page on Linkedin. <a href=\"https://www.linkedin.com/company/flowbit-ai/\">Flowbit AI</a><br /><br /></p>\r\n<p data-pm-slice=\"1 1 []\">Multi-Format Intake Agent with Intelligent Routing & Context Memory\u201d</p>\r\n<p>Objective</p>\r\n<p>Build a multi-agent AI system that can accept data in PDF, JSON, or Email (text) format, intelligently classify the input type and purpose, and then route it to the right specialized agent for extraction. The system should maintain context (e.g., sender, topic, last extracted fields) to support downstream chaining or audits.</p>\r\n<p>\u00a0</p>\r\n<p>System Overview</p>\r\n<p>You are to build 3 core agents, all orchestrated through a central Classifier Agent:</p>\r\n<p>\u00a0</p>\r\n<p>1. Classifier Agent</p>\r\n<p>Receives raw input (file/email/JSON body)</p>\r\n<p>Classifies:</p>\r\n<p>Format: PDF / JSON / Email</p>\r\n<p>Intent: Invoice, RFQ, Complaint, Regulation, etc.</p>\r\n<p>Routes to the appropriate extraction agent</p>\r\n<p>Adds format + intent to shared memory</p>\r\n<p>\u00a0</p>\r\n<p>2. JSON Agent</p>\r\n<p>Accepts arbitrary JSON (e.g., webhook payloads, APIs)</p>\r\n<p>Extracts and re-formats data to a defined FlowBit schema</p>\r\n<p>Identifies anomalies or missing fields</p>\r\n<p>\u00a0</p>\r\n<p>3. Email Parser Agent</p>\r\n<p>Accepts email body text (plain or HTML)</p>\r\n<p>Extracts sender name, request intent, urgency</p>\r\n<p>Returns formatted CRM-style record</p>\r\n<p>Stores conversation ID + parsed metadata in memory</p>\r\n<p>\u00a0</p>\r\n<p>Shared Memory Module (Lightweight)</p>\r\n<p>Should store:</p>\r\n<p>Input metadata (source, type, timestamp)</p>\r\n<p>Extracted fields per agent</p>\r\n<p>Thread/conversation ID if available</p>\r\n<p>You can use Redis, SQLite, or in-memory store</p>\r\n<p>\u00a0</p>\r\n<p>Memory must be readable across agents</p>\r\n<p>\u00a0</p>\r\n<p>End-to-End Flow Example</p>\r\n<p>User uploads an email body \u2192 Classifier detects \"email + RFQ intent\"</p>\r\n<p>Routed to Email Parser \u2192 Extracts sender, request, urgency</p>\r\n<p>\u00a0</p>\r\n<p>Memory stores output</p>\r\n<p>If RFQ references an attached JSON\u2192 also route to JSON agent</p>\r\n<p>Combined structured output is returned (or logged to mock CRM)</p>\r\n<p>\u00a0</p>\r\n<p>Tech Stack Recommendations</p>\r\n<p>Python (Langchain / FastAPI preferred)</p>\r\n<p>LLMs (OpenAI, Gemini, or open-source)</p>\r\n<p>Memory: Redis / SQLite / JSON memory class</p>\r\n<p>Docker (optional, bonus)</p>\r\n<p>\u00a0</p>\r\n<p>Submission Requirements</p>\r\n<p><strong>Working Video is a must</strong></p>\r\n<p>GitHub repo with:</p>\r\n<p>README.md</p>\r\n<p>Sample input files (PDFs, JSONs, emails)</p>\r\n<p>Folder structure: /agents, /mcp, /memory, /data, /utils</p>\r\n<p>Sample output logs or screenshots</p>\r\n<p><br /><br />All the Best!<br /><br />Regards,<br />Flowbit Private Limited Team</p>\r\n                        </div>\r\n\r\n                        <div style=\"padding-top:20px; text-align:center;\">\r\n                            <a href=\"https://unstop.com/internships/ai-agent-development-internship-flowbit-private-limited-1482335\" target=\"_blank\" style=\"display: inline-block; padding: 12px 32px; background: #0073E6; border-radius: 50px; font-weight: 500; font-size: 14px; line-height: 16px; color: #FFFFFF; cursor: pointer; box-sizing: border-box;\">\r\n                                View Opportunity\r\n                            </a>\r\n                        </div>\r\n                    </td>\r\n                </tr>\r\n            </tbody>\r\n        </table>\r\n\r\n        \r\n        <style>\r\n\t.footer_sect a:hover {\r\n\t\topacity: .8;\r\n\t}\r\n\t@media (max-width: 600px) {\r\n\t\t.full {\r\n\t\t\twidth: 100% !important;\r\n\t\t}\r\n\t\t.footer_ui {\r\n\t\t\tborder-radius: 8px;\r\n\t\t}\r\n\t\t.footer_ui .footer_pdng {\r\n\t\t\tpadding-left: 16px !important;\r\n\t\t\tpadding-right: 16px !important;\r\n\t\t}\r\n\t\t.footer_ui .un_logo {\r\n\t\t\twidth: 100px !important; \r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" width=\"700\" class=\"full footer_ui\" style=\"background: #f2f2f2;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td class=\"footer_pdng\" style=\"padding: 24px 30px;\">\r\n\t\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" style=\"width: 100%;\">\r\n\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"border-bottom: 1px solid #DEDEDE; padding-bottom: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\thref=\"https://unstop.com/pro\"\r\n\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none;\"\r\n\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66434fd4a4152_unstop_logo.png\"\r\n\t\t\t\t\t\t\t\t\t\talt=\"Unstop pro logo\" style=\"display: block; width: 120px;\"\r\n\t\t\t\t\t\t\t\t\t\tclass=\"un_logo\"\r\n\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<p\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; color: #1c1c1c; font-size: 12px; font-weight: 500; margin: 0 0 10px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t\tJoin our evergrowing unstoppable community\r\n\t\t\t\t\t\t\t\t</p>\r\n\r\n\t\t\t\t\t\t\t\t<div style=\"text-align: center;\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/unstop.world/\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433aee6e146_instagram.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Instagram Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/unstop/\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433aff63c9b_linkedin.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Linkedin Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://t.me/+ON15qceSy-IyZjY9\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433b096c58b_telegram.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Telegram Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\t\thref=\"https://www.youtube.com/c/Unstop_World\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; width: 40px; height: 40px; background: #FAFAFA; border-radius: 50px;\" \r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\r\n\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/66433b12a37a3_youtube.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Youtube Icon\" style=\"display: block; width: 40px;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<p style=\"font-family: 'Inter', sans-serif; color: #1c1c1c; font-size: 12px; font-weight: 500; margin: 0 0 10px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t\tGet the Unstop app\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t<div>\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://play.google.com/store/apps/details?id=com.dare2compete.app\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none; margin-right: 10px;\"\r\n\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/6641f370d8dc5_google_play.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"Play Store Icon\"\r\n\t\t\t\t\t\t\t\t\t\t\tstyle=\"display: block; width: 120px; border: 1px solid #1c1c1c !important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://apps.apple.com/in/app/unstop-formerly-dare2compete/id1601170365\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"display: inline-block; text-decoration: none;\" target=\"_blank\">\r\n\t\t\t\t\t\t\t\t\t\t<img\r\n\t\t\t\t\t\t\t\t\t\t\tsrc=\"https://d8it4huxumps7.cloudfront.net/uploads/images/6641f38f1c761_app_store.png\"\r\n\t\t\t\t\t\t\t\t\t\t\talt=\"App Store Icon\"\r\n\t\t\t\t\t\t\t\t\t\t\tstyle=\"display: block; width: 120px; border: 1px solid #1c1c1c !important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500; border-right: 1px solid #D9D9D9; padding-right: 12px; margin-right: 12px;\">\r\n\t\t\t\t\t\t\t\t\tQueries? We're just one email away: <a href=\"mailto:support@unstop.com\" class=\"h_text_color\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; color: #1c1c1c; text-decoration: none;\">support@unstop.com</a>\r\n\t\t\t\t\t\t\t\t</span>\r\n\r\n\t\t\t\t\t\t\t\t<span style=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500;\">\r\n\t\t\t\t\t\t\t\t\t\u00a9 2025 <a class=\"h_text_color\" href=\"https://unstop.com/\"\r\n\t\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; color: #1c1c1c; text-decoration: none;\">Unstop</a>.\r\n\t\t\t\t\t\t\t\t\tAll rights reserved\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</tbody>\r\n\t\t\t\t</table>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>    </div>\r\n</body>\r\n\r\n</html>",
+              "key_points": [
+                "important;\r\n            -ms-text-size-adjust: 100%",
+                "important;\r\n            -webkit-font-smoothing: antialiased;\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n        h1,\r\n        h2,\r\n        h3,\r\n        h4,\r\n        h5,\r\n        h6,\r\n        p,\r\n        span,\r\n        a,\r\n        strong,\r\n        div,\r\n        td {\r\n            font-family: \"Inter\", sans-serif;\r\n        }\r\n\r\n        img {\r\n            border: 0",
+                "important;\r\n            outline: none",
+                "important;\r\n            display: block;\r\n        }\r\n\r\n        a {\r\n            text-decoration: none;\r\n            color: #0073e6;\r\n        }",
+                "important;\r\n            text-decoration: underline",
+                "important;\r\n        }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                padding-right: 0",
+                "important;\r\n                text-align: center;\r\n                width: 100%;\r\n                display: block;\r\n                margin-bottom: 15px;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                margin-bottom: 10px",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 22px",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 19px",
+                "important;\r\n                margin-top: 15px",
+                "important;\r\n            }",
+                "important;\r\n                padding-bottom: 15px",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n            }",
+                "important;\r\n                height: 100px",
+                "important;\r\n            }",
+                "important;\r\n                padding-right: 0",
+                "important;\r\n            }",
+                "important;\r\n                font-size: 16px",
+                "important;\r\n                line-height: 20px",
+                "important;\r\n            }",
+                "important;\r\n                line-height: 21px",
+                "important;\r\n            }",
+                "important;\r\n            }\r\n        }\r\n    </style>\r\n</head>\r\n\r\n<body>\r\n    <div style=\"background-color: #ffffff; width: 100%; margin: 0; padding: 0;\">\r\n        <style>\r\n \t@media (max-width: 600px) {",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t\tline-height: 24px",
+                "important;\r\n\t\t\tpadding-top: 12px",
+                "important;\r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table \r\n\tcellpadding=\"0\" \r\n\tcellspacing=\"0\" \r\n\talign=\"center\" \r\n\tborder=\"0\" \r\n\twidth=\"700\" \r\n\tclass=\"full hedr_higt_1 br0\" \r\n\tstyle=\"\r\n\t\tbackground: #eaf4fe;\r\n\t\tbackground-image: url(https://d8it4huxumps7",
+                "important;\r\n\t\t\t\t\t\t\t\t\t\t\t\toutline: none",
+                "important;\r\n\t\t\t\t\t\t\t\t\t\t\t\tdisplay: block;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-height: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmax-width: 80%;\r\n\t\t\t\t\t\t\t\t\t\t\t\tmargin: auto;\r\n\t\t\t\t\t\t\t\t\t\t\t\" \r\n\t\t\t\t\t\t\t\t\t\t\twidth=\"55\"\r\n\t\t\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div \r\n\t\t\t\t\t\t\t\t\tclass=\"h1\" \r\n\t\t\t\t\t\t\t\t\tstyle=\"\r\n\t\t\t\t\t\t\t\t\t\tfont-family: 'Inter', sans-serif;\r\n\t\t\t\t\t\t\t\t\t\tcolor: #1c1c1c;\r\n\t\t\t\t\t\t\t\t\t\tfont-size: 28px;\r\n\t\t\t\t\t\t\t\t\t\tline-height: 36px;\r\n\t\t\t\t\t\t\t\t\t\tfont-weight: 600;\r\n\t\t\t\t\t\t\t\t\t\tpadding-top: 20px;\r\n\t\t\t\t\t\t\t\t\t\ttext-align: center;\r\n\t\t\t\t\t\t\t\t\t\"\r\n\t\t\t\t\t\t\t\t>\r\n\t\t\t\t\t\t\t\t\tAI Agent Development Internship\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</a>\r\n\t\t\t</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n        <table\r\n            cellpadding=\"0\"\r\n            cellspacing=\"0\"\r\n            align=\"center\"\r\n            bgcolor=\"#ffffff\"\r\n            border=\"0\"\r\n            width=\"700\"\r\n            class=\"full\"\r\n        >\r\n            <tbody>\r\n                <tr>\r\n                    <td class=\"pdng\" style=\"padding: 40px 30px; text-align: left;\">\r\n                        <p style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0 0 15px; line-height: 20px; font-weight: 400;\">\r\n                            Hi <strong>Varshith Reddy</strong>,\r\n                        </p>\r\n\r\n                        <div class=\"text_box\" style=\"font-family: 'Inter', sans-serif; font-size: 15px; color: #434343; margin: 0; line-height: 22px; font-weight: 400;\">\r\n                            <p>Thank you for your interest in the role of <strong style=\"font-weight: bold;\">'AI Agent Development Internship'</strong>",
+                "Email Parser Agent</p>\r\n<p>Accepts email body text (plain or HTML)</p>\r\n<p>Extracts sender name, request intent, urgency</p>\r\n<p>Returns formatted CRM-style record</p>\r\n<p>Stores conversation ID + parsed metadata in memory</p>\r\n<p>\u00a0</p>\r\n<p>Shared Memory Module (Lightweight)</p>\r\n<p>Should store:</p>\r\n<p>Input metadata (source, type, timestamp)</p>\r\n<p>Extracted fields per agent</p>\r\n<p>Thread/conversation ID if available</p>\r\n<p>You can use Redis, SQLite, or in-memory store</p>\r\n<p>\u00a0</p>\r\n<p>Memory must be readable across agents</p>\r\n<p>\u00a0</p>\r\n<p>End-to-End Flow Example</p>\r\n<p>User uploads an email body \u2192 Classifier detects \"email + RFQ intent\"</p>\r\n<p>Routed to Email Parser \u2192 Extracts sender, request, urgency</p>\r\n<p>\u00a0</p>\r\n<p>Memory stores output</p>\r\n<p>If RFQ references an attached JSON\u2192 also route to JSON agent</p>\r\n<p>Combined structured output is returned (or logged to mock CRM)</p>\r\n<p>\u00a0</p>\r\n<p>Tech Stack Recommendations</p>\r\n<p>Python (Langchain / FastAPI preferred)</p>\r\n<p>LLMs (OpenAI, Gemini, or open-source)</p>\r\n<p>Memory: Redis / SQLite / JSON memory class</p>\r\n<p>Docker (optional, bonus)</p>\r\n<p>\u00a0</p>\r\n<p>Submission Requirements</p>\r\n<p><strong>Working Video is a must</strong></p>\r\n<p>GitHub repo with:</p>\r\n<p>README",
+                "important;\r\n\t\t}",
+                "important;\r\n\t\t\tpadding-right: 16px",
+                "important;\r\n\t\t}",
+                "important; \r\n\t\t}\r\n\t}\r\n</style>\r\n\r\n<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" width=\"700\" class=\"full footer_ui\" style=\"background: #f2f2f2;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td class=\"footer_pdng\" style=\"padding: 24px 30px;\">\r\n\t\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" style=\"width: 100%;\">\r\n\t\t\t\t\t<tbody>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"border-bottom: 1px solid #DEDEDE; padding-bottom: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<a \r\n\t\t\t\t\t\t\t\t\thref=\"https://unstop",
+                "important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\r\n\t\t\t\t\t\t\t\t\t<a href=\"https://apps",
+                "important; border-radius: 50px; background: #1c1c1c;\">\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td style=\"padding-top: 20px; text-align: center;\">\r\n\t\t\t\t\t\t\t\t<span\r\n\t\t\t\t\t\t\t\t\tstyle=\"font-family: 'Inter', sans-serif; text-align: center; color: #1c1c1c; font-size: 12px; font-weight: 500; border-right: 1px solid #D9D9D9; padding-right: 12px; margin-right: 12px;\">\r\n\t\t\t\t\t\t\t\t\tQueries"
+              ],
+              "action_items": []
+            },
+            "processed_at": "2025-05-30T21:31:56.404725"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T21:31:56.414332",
+        "agent_output": {
+          "actions": {
+            "success": true,
+            "actions": [],
+            "timestamp": "2025-05-30T21:31:56.414307"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-30T21:31:56.376043",
+    "last_updated": "2025-05-30T21:31:56.414338"
+  },
+  "2b34ce27-5530-43c5-8866-f8783fb1f393": {
+    "metadata": {
+      "filename": "memory_store.json",
+      "content_type": "application/json",
+      "description": "",
+      "size": 165171,
+      "upload_time": "2025-05-30T21:32:21.531633"
+    },
+    "history": [
+      {
+        "timestamp": "2025-05-30T21:32:21.550753",
+        "agent_output": {
+          "classification": {
+            "format": "json",
+            "intent": "regulation",
+            "confidence": 0.4375,
+            "matches": [
+              "compliance",
+              "regulation",
+              "policy",
+              "requirement"
+            ],
+            "metadata": {
+              "size": 165171,
+              "timestamp": "2025-05-30T21:32:21.549464",
+              "format_details": {
+                "keys": [
+                  "1e3c1f7d-8582-4d7c-a409-08045bddee5f",
+                  "f9d02501-7055-4e1c-8720-57f4becacbd1",
+                  "544a67c9-22bd-4ece-a1f5-d05a2c1c15c3",
+                  "7943cb7c-b19d-4209-b727-c445304ea680",
+                  "98ee888a-8f8b-4ebd-8404-91d5c0a3b237",
+                  "e1267c99-bf47-47e3-a49d-79d9cfb247f8",
+                  "4fb8ee01-8ff0-4d59-bb35-4255dc5b9513",
+                  "f7aa6ed6-4b71-4cc1-8427-4d5e0a817ab3",
+                  "9abce493-96c5-423c-9390-e8cc330a5583",
+                  "5a9d40b0-82ab-4498-b275-e09afa5396cc",
+                  "4db60b83-7e65-4a1b-ae44-03a5120ae80e",
+                  "aedcd9ae-02f9-4b03-93a4-f1d366a92504",
+                  "fea9ee77-4d99-4586-af50-69a47a7bd2ed",
+                  "9deeda3a-5773-473b-a88b-f7e8dd69876d",
+                  "6779aafa-87de-4458-b290-8095dbcb0f8f",
+                  "2271bd8f-e754-4b0c-b2fc-4796e29aa600",
+                  "43cff6c5-e4a7-4783-9141-152a28debeed",
+                  "19894609-cfe0-4a71-8405-0c7c6cec5682",
+                  "9374169d-36a5-4c8e-ac00-609543f2bb37"
+                ],
+                "is_array": false
+              }
+            }
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T21:32:21.560534",
+        "agent_output": {
+          "extraction": {
+            "success": true,
+            "data": {
+              "metadata": {
+                "intent": "regulation",
+                "source": "json_agent",
+                "version": "1.0"
+              },
+              "content": {}
+            },
+            "missing_fields": [
+              "policy_id",
+              "effective_date",
+              "requirements"
+            ],
+            "anomalies": [],
+            "processed_at": "2025-05-30T21:32:21.560463"
+          }
+        }
+      },
+      {
+        "timestamp": "2025-05-30T21:32:21.569207",
+        "agent_output": {
+          "actions": {
+            "success": true,
+            "actions": [],
+            "timestamp": "2025-05-30T21:32:21.569184"
+          }
+        }
+      }
+    ],
+    "created_at": "2025-05-30T21:32:21.531646",
+    "last_updated": "2025-05-30T21:32:21.569211"
   }
 }

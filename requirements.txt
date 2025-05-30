@@ -5,3 +5,5 @@ Jinja2
 beautifulsoup4
 PyPDF2
 email-validator
+requests
+python-dotenv

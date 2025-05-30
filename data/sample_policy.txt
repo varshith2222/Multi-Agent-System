@@ -1,0 +1,27 @@
+GDPR COMPLIANCE POLICY
+
+SECTION 1: OVERVIEW
+This policy outlines our commitment to protecting personal data in accordance with GDPR requirements.
+
+SECTION 2: DATA PROTECTION PRINCIPLES
+We adhere to the following principles:
+- Lawfulness, fairness, and transparency
+- Purpose limitation
+- Data minimization
+- Accuracy
+- Storage limitation
+- Integrity and confidentiality
+
+SECTION 3: SECURITY MEASURES
+All personal data must be protected using appropriate technical and organizational measures.
+
+SECTION 4: DATA BREACH PROCEDURES
+In case of a data breach:
+1. Notify DPO within 24 hours
+2. Assess risk to individuals
+3. Report to supervisory authority if required
+
+SECTION 5: COMPLIANCE REQUIREMENTS
+Regular audits will be conducted to ensure GDPR compliance.
+
+For questions contact: compliance@company.com

@@ -1,0 +1,23 @@
+From: john.smith@customer.com
+To: support@company.com
+Subject: Urgent: Service Quality Issues
+Date: Thu, 30 May 2025 10:30:00 +0530
+
+Dear Support Team,
+
+I am writing to express my extreme dissatisfaction with the service quality we have been experiencing lately. This is our third complaint this month.
+
+Key Issues:
+1. System downtime: 4 hours yesterday
+2. Data synchronization failures
+3. Slow response from support team
+
+This is completely unacceptable for a premium service that we are paying $5000/month for. We need immediate resolution or we will be forced to escalate this to senior management.
+
+Please treat this as an urgent matter requiring immediate attention.
+
+Best regards,
+John Smith
+VP of Operations
+ACME Corporation
+Tel: +1-555-0123
