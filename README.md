@@ -1,16 +1,20 @@
-# Multi-Agent AI System
+# 🤖 Multi-Agent AI System
 
 An intelligent document processing system that classifies and extracts information from multiple input formats using specialized agents.
 
-## Features
+---
 
-- Supports PDF, JSON, and Email input formats
-- Intelligent classification and routing
-- Specialized extraction agents
-- Shared memory system for context preservation
-- Built with Python, FastAPI, and LangChain
+## ✨ Features
 
-## Project Structure
+- 📄 Supports **PDF**, **JSON**, and **Email** input formats  
+- 🧠 Intelligent **classification and routing**  
+- 🤹 Specialized **extraction agents**  
+- 🧬 Shared **memory system** for context preservation  
+- ⚡ Built with **Python**, **FastAPI**, and **LangChain**  
+
+---
+
+## 🗂️ Project Structure
 
 ```
 /multi-agent-system
@@ -28,24 +32,24 @@ An intelligent document processing system that classifies and extracts informati
 └── requirements.txt  # Dependencies
 ```
 
-## Setup
+## ⚙️ Setup
 
-1. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+1. **Create a virtual environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
 
-3. Set up environment variables:
-```bash
-cp .env.example .env
-# Edit .env with your API keys
-```
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set up environment variables:**
+   ```bash
+    cp .env.example .env
+   # Edit .env with your API keys
+   ```
 
 ## Usage
 
@@ -60,8 +64,4 @@ The API will be available at http://localhost:8000
 
 - `POST /process`: Process any input document
 - `GET /memory/{conversation_id}`: Retrieve processing history
-
-## License
-
-MIT
 "# multi-agent-system" 
